@@ -7,6 +7,11 @@ import image5 from '../assets/images/image_5.png';
 import image6 from '../assets/images/image_6.png';
 import image7 from '../assets/images/image_7.png';
 import image8 from '../assets/images/image_8.png';
+
+import cardano from '../assets/images/cardano.svg';
+import cloudConnection from '../assets/images/cloud-connection.svg';
+import monitorMobile from '../assets/images/monitor-mobbile.svg';
+import oceanProtocol from '../assets/images/ocean-protocol.svg';
 </script>
 
 <template>
@@ -111,10 +116,84 @@ import image8 from '../assets/images/image_8.png';
       </div>
     </div>
 
-    <div  class="bg-white py-4">
-      <div class="container mx-auto">
-        <h1 class="text-[#2E2E2F] text-[3rem] font-bold">Latest Picks</h1>
+    <div class="text-gray-800">
+    <div class="container mx-auto p-8">
+      <!-- Header Section -->
+      <div class="text-center mb-12">
+        <h1 class="text-6xl font-bold">Inspiring Solution</h1>
+        <p class="text-gray-600 mt-4 text-xl leading-relaxed">
+          When services simply work, we choose to approach digital needs from a partner perspective.
+          A partner that delivers inspiring solutions. We consult, design, develop, implement, and manage integrated technology solutions.
+          Whether on cloud, on-premises, or using a hybrid model, we help you drive measurable productivity in your business.
+          We start with you from scratch; from ideation and conceptualization to implementation of transformative solutions.
+        </p>
       </div>
+
+      <!-- Features Section -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Feature 1 -->
+        <div class="text-center px-6 flex flex-col justify-between items-center">
+          <div>
+          <div class="mb-4">
+            <img :src="cardano" alt="Mobile Icon" class="mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold">Mobile Applications Development</h3>
+          <p class="text-gray-500 mt-3">
+            Native mobile application is a smartphone application written in a specific programming language such as Objective C for iOS or Java for Android.
+          </p>
+          </div>
+          <button class="px-6 py-2 mt-6 border bg-[#2E2E2F1A] text-[#2E2E2F] font-medium rounded-lg w-fit">
+            View More
+          </button>
+
+        </div>
+        <!-- Feature 2 -->
+        <div class="text-center px-6 flex flex-col justify-between items-center">
+          <div>
+            <div class="mb-4">
+              <img :src="monitorMobile" alt="Web Icon" class="mx-auto">
+            </div>
+            <h3 class="text-xl font-semibold">Web Development</h3>
+            <p class="text-gray-500 mt-3">
+              Web development is the process of building, programming, and maintaining websites and web applications. Website developers use various programming tools.
+            </p>
+          </div>
+          <button class="px-6 py-2 border bg-[#2E2E2F1A] text-[#2E2E2F] font-medium rounded-lg w-fit">
+            View More
+          </button>
+        </div>
+        <!-- Feature 3 -->
+        <div class="text-center px-6 flex flex-col justify-between items-center">
+          <div>
+          <div class="mb-4">
+            <img :src="cloudConnection" alt="Cloud Icon" class="mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold">Save Information in the Cloud</h3>
+          <p class="text-gray-500 mt-3">
+            To use Cloud Storage, you'll first create a bucket, a basic container that holds your data in Cloud Storage.
+          </p>
+          </div>
+          <button class="px-6 py-2 border bg-[#2E2E2F1A] text-[#2E2E2F] font-medium rounded-lg w-fit">
+            View More
+          </button>
+        </div>
+        <!-- Feature 4 -->
+        <div class="text-center px-6 flex flex-col justify-between items-center">
+          <div>
+            <div class="mb-4">
+              <img :src="oceanProtocol" alt="Power Apps Icon" class="mx-auto">
+            </div>
+            <h3 class="text-xl font-semibold">Form On-Prem Dynamics to Power Apps</h3>
+            <p class="text-gray-500 mt-3">
+              Connect your Dynamics 365 on-premises environment to the world of Power Apps using our OPS (On-Premises Connectors) solutions.
+            </p>
+          </div>
+          <button class="px-6 py-2 border bg-[#2E2E2F1A] text-[#2E2E2F] font-medium rounded-lg  w-fit">
+            View More
+          </button>
+        </div>
+      </div>
+    </div>
     </div>
   </main>
 </template>
