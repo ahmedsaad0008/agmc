@@ -11,7 +11,7 @@ import construct from '../assets/images/construct.png';
         <h1 class="text-4xl sm:text-4xl md:text-[1.5rem] lg:text-[4.5rem] font-bold text-[#2E2E2F] md:leading-[1.5]">
           Revolutionary Digital <br />
           <span class="text-[#2E2E2F] font-bold flex flex-row items-center">
-          Synergis <img :src="construct" class="max-w-52  md:max-w-40" alt="logo">
+          Synergis <img :src="construct" class="max-w-52  md:max-w-40 lg:max-w-full"  alt="logo">
         </span>
         </h1>
         <p class="mt-4 text-[#2E3E5C]  md:text-[1.2rem] lg:text-[1.7rem]">
