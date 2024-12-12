@@ -22,7 +22,7 @@ import Banner from "@/components/Banner.vue";
           <li><router-link to="/services">Services</router-link></li>
           <li><router-link to="/projects">Projects</router-link></li>
           <li><a href="#">About Us</a></li>
-          <li><a href="#">News</a></li>
+          <li><router-link to="/news">News</router-link></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
       </div>
