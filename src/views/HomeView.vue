@@ -1,5 +1,6 @@
 <script setup>
 import Banner from "@/components/Banner.vue";
+import Carsoual from "@/components/Carsoual.vue";
 import points from '../assets/images/points.svg';
 import icRoundRestaurant from '../assets/images/ic_round-restaurant.svg';
 import image4 from '../assets/images/image _4.png';
@@ -195,5 +196,8 @@ import oceanProtocol from '../assets/images/ocean-protocol.svg';
       </div>
     </div>
     </div>
+
+    <Carsoual/>
+
   </main>
 </template>
