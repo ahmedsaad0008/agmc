@@ -14,6 +14,21 @@ import cloudConnection from '../assets/images/cloud-connection.svg';
 import monitorMobile from '../assets/images/monitor-mobbile.svg';
 import oceanProtocol from '../assets/images/ocean-protocol.svg';
 import bannerImage from '../assets/images/banner-image.jpg';
+
+import google from '../assets/images/google.svg';
+import airbnt from '../assets/images/airbnt.svg';
+import creative from '../assets/images/creative.svg';
+import shopify from '../assets/images/shopify.svg';
+import amazon from '../assets/images/amazon.svg';
+import {ref} from "vue";
+
+const images = ref([
+  google,
+  airbnt,
+  creative,
+  shopify,
+  amazon,
+]);
 </script>
 
 <template>
@@ -221,7 +236,14 @@ import bannerImage from '../assets/images/banner-image.jpg';
         </div>
     </div>
 
-
+    <div class="container mx-auto py-24">
+      <h4 class="text-center mb-12 font-bold text-xl">Support Company</h4>
+      <div class="grid grid-cols-5 items-center">
+        <div class="col-span-1 w-fit mx-auto" v-for="(im,i) in images" :key="i">
+          <img :src="im" alt="logo">
+        </div>
+      </div>
+    </div>
 
   </main>
 </template>
