@@ -18,7 +18,7 @@ import qrCode from '../assets/images/qr-ode.svg';
       <h2 class="text-4xl font-bold">Projects</h2>
     </div>
 
-    <div class="grid gap-6 grid-cols-2 mb-10">
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
       <div class="col-span-1 px-20 flex flex-col justify-evenly">
         <h3 class="text-5xl font-bold text-[#2E2E2F]">SGT Mobile App</h3>
         <p class="text-2xl text-[#575757]">Our FirstWave support engineers are highly skilled and experienced in NMIS, Open-AudIT and all of our commercial products and helped customers from Telcos, MSP, enterprise organisations.</p>
@@ -37,7 +37,7 @@ import qrCode from '../assets/images/qr-ode.svg';
       </div>
     </div>
 
-    <div class="grid gap-6 grid-cols-2 mb-10">
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
       <div class="col-span-1">
         <img :src="web" alt="UI/UX Design" class="rounded w-full">
       </div>
@@ -48,7 +48,7 @@ import qrCode from '../assets/images/qr-ode.svg';
       </div>
     </div>
 
-    <div class="grid gap-6 grid-cols-2">
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
       <div class="col-span-1 px-20 flex flex-col justify-evenly">
         <h3 class="text-5xl font-bold text-[#2E2E2F]">SGT Judge App</h3>
         <p class="text-2xl text-[#575757]">Our FirstWave support engineers are highly skilled and experienced in NMIS, Open-AudIT and all of our commercial products and helped customers from Telcos, MSP, enterprise organisations.</p>

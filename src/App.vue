@@ -10,7 +10,7 @@ import Banner from "@/components/Banner.vue";
     <div class="navbar px-4">
       <!-- Logo Section -->
       <div class="navbar-start w-fit">
-        <a href="#" class="text-3xl font-bold text-gradient bg-clip-text bg-gradient-to-r from-pink-500 via-blue-500 to-green-500">
+        <a href="/" class="max-w-16 sm:max-w-full">
           <img :src="logo" alt="agmc">
         </a>
       </div>
@@ -25,15 +25,16 @@ import Banner from "@/components/Banner.vue";
           <li><router-link to="/news">News</router-link></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
+
       </div>
 
       <!-- Search Bar -->
-      <div class="navbar-end">
+      <div class="navbar-end w-full">
         <div class="relative">
           <input
               type="text"
               placeholder="Search"
-              class="input input-bordered rounded-full pl-4 pr-12 w-48 md:w-64 lg:w-96 focus:outline-none"
+              class="input input-bordered rounded-full pl-4 pr-12 w-32 md:w-64 lg:w-96 focus:outline-none"
           />
           <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black text-white rounded-full h-8 w-8 flex items-center justify-center">
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,6 +43,36 @@ import Banner from "@/components/Banner.vue";
             </svg>
 
           </button>
+        </div>
+
+        <div class="flex-none block lg:hidden">
+          <ul class="menu menu-horizontal px-1">
+
+            <li>
+              <details>
+                <summary> <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                  <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h7" />
+                </svg></summary>
+                <ul class="bg-base-100 rounded-t-none p-2">
+                  <li><router-link to="/" >Home</router-link></li>
+                  <li><router-link to="/services">Services</router-link></li>
+                  <li><router-link to="/projects">Projects</router-link></li>
+                  <li><router-link to="/about-us">About Us</router-link></li>
+                  <li><router-link to="/news">News</router-link></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -95,7 +126,7 @@ import Banner from "@/components/Banner.vue";
       <!-- Links Section -->
         <div>
           <h2 class="text-lg font-bold">Company</h2>
-          <ul class="mt-4 space-y-2 flex flex-row items-end gap-36 w-full">
+          <ul class="mt-4 space-y-2 flex flex-col sm:flex-row items-start sm:items-end md:gap-10 lg:gap-36 w-full">
             <li><a href="#" class="hover:text-white">About Us</a></li>
             <li><a href="#" class="hover:text-white">Press</a></li>
             <li><a href="#" class="hover:text-white">Investors</a></li>

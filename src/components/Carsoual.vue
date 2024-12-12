@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#2E2E2F0D] py-20">
     <div class=" container mx-auto">
-        <Carousel v-bind="config">
+        <Carousel :items-to-show="1" :breakpoints="breakpoints">
           <Slide v-for="(slide, index) in slides" :key="index" class="py-6 px-3">
             <div class="bg-white shadow-lg rounded-3xl p-6">
               <div class="grid grid-cols-3 gap-2">
@@ -30,10 +30,15 @@ import {  ref } from "vue";
 import web from '../assets/images/web.svg';
 import mobile from '../assets/images/mobile.svg';
 import network from '../assets/images/network.svg';
-const config = {
-  itemsToShow: 3,
-  itemsToScroll:1,
-}
+
+const breakpoints = ref({
+  768: {
+    itemsToShow: 2,
+  },
+  1024: {
+    itemsToShow: 3,
+  },
+})
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 

@@ -38,7 +38,7 @@ const images = ref([
       <div class="container mx-auto p-6">
         <!-- Header Section -->
         <div class="text-center mb-10">
-          <h2 class="text-[4.5rem] font-bold flex flex-row justify-center"><img :src="points">We Deliver Digital Productivity</h2>
+          <h2 class="text-[1.5rem] md:text-[2rem] lg:text-[4.5rem] font-bold flex flex-row justify-center"><img :src="points" class="max-w-16 md:max-w-16 lg:max-w-full" alt="">We Deliver Digital Productivity</h2>
           <h4 class="text-[#2E3E5C] mt-2 text-center text-2xl max-w-[70%] mx-auto">
             We craft technology solutions that digitally bond and transform the productivity of our customers and their citizens, workers, consumers, and partners.
           </h4>
@@ -92,7 +92,7 @@ const images = ref([
           <div class="w-full flex justify-center">
             <button class="btn bg-[#6CBF8B] hover:bg-[#6CBF8B] ms-[10%] px-8 py-3">Contact Us</button>
           </div>
-          <img :src="points">
+          <img :src="points" class="max-w-16 md:max-w-16 lg:max-w-full" alt="">
         </div>
       </div>
     </div>
@@ -101,13 +101,13 @@ const images = ref([
       <div class="container mx-auto">
         <h1 class="text-[#2E2E2F] text-[3rem] font-bold">Latest Picks</h1>
         <p class="text-[#2E3E5C] text-[1.5rem] font-bold">Check Our Latest New , Event , webners And More.</p>
-        <div class="grid grid-cols-2 mt-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 mt-3">
           <div class="col-span-1 px-4">
             <img :src="image4" class="h-3/4 w-full rounded-[16px]">
             <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
             <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Link Development Bring The Latest Ai Advacecoment To Cairo ICT 2024</h2>
           </div>
-          <div class="col-span-1 grid grid-cols-2">
+          <div class="col-span-1 grid-cols-1 sm:grid-cols-2 items-center">
             <div class="col-span-1">
               <img :src="image5" class="rounded-[16px]">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
@@ -227,9 +227,9 @@ const images = ref([
       </div>
         <div class="relative">
           <img :src="bannerImage" class="w-full" alt="banner">
-          <div class="absolute bottom-20 px-20">
-            <h1 class="text-6xl font-bold text-white">SGT App</h1>
-            <p class="text-white mt-6 text-5xl leading-relaxed">
+          <div class="absolute bottom-4 md:bottom-20 px-20">
+            <h1 class="text-sm md:text-6xl font-bold text-white">SGT App</h1>
+            <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
               Drive business transformation with the power of Microsoft Dynamics 365.
             </p>
           </div>
@@ -238,7 +238,7 @@ const images = ref([
 
     <div class="container mx-auto py-24">
       <h4 class="text-center mb-12 font-bold text-xl">Support Company</h4>
-      <div class="grid grid-cols-5 items-center">
+      <div class="grid grid-cols-2 md:grid-cols-5 items-center gap-6 md:gap-0">
         <div class="col-span-1 w-fit mx-auto" v-for="(im,i) in images" :key="i">
           <img :src="im" alt="logo">
         </div>
