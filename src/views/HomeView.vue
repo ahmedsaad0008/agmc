@@ -33,6 +33,7 @@ const images = ref([
 
 <template>
   <main>
+    <Banner/>
     <div class="bg-[#f4f4f4] text-[#2E3E5C]">
       <div class="container mx-auto p-6">
         <!-- Header Section -->

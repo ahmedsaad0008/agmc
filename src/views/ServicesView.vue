@@ -15,10 +15,12 @@ import php from '../assets/images/php.svg';
 import flutter from '../assets/images/flutter.svg';
 import swift from '../assets/images/swift.svg';
 import android from '../assets/images/android.svg';
+import Banner from "@/components/Banner.vue";
 </script>
 
 <template>
 
+  <Banner/>
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold">Services</h2>

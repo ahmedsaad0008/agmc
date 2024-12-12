@@ -20,7 +20,7 @@ import Banner from "@/components/Banner.vue";
         <ul class="menu menu-horizontal px-1 space-x-4 text-lg font-medium">
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/services">Services</router-link></li>
-          <li><a href="#">Projects</a></li>
+          <li><router-link to="/projects">Projects</router-link></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">News</a></li>
           <li><a href="#">Contact Us</a></li>
@@ -46,7 +46,7 @@ import Banner from "@/components/Banner.vue";
       </div>
     </div>
   </div>
-  <Banner/>
+
 
 
 
