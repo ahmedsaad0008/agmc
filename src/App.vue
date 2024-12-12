@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import logo from './assets/images/logo.png';
+import Banner from "@/components/Banner.vue";
 </script>
 
 <template>
@@ -18,7 +19,7 @@ import logo from './assets/images/logo.png';
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 space-x-4 text-lg font-medium">
           <li><router-link to="/">Home</router-link></li>
-          <li><a href="#">Services</a></li>
+          <li><router-link to="/services">Services</router-link></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">News</a></li>
@@ -45,6 +46,7 @@ import logo from './assets/images/logo.png';
       </div>
     </div>
   </div>
+  <Banner/>
 
 
 
