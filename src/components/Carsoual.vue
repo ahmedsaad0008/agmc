@@ -1,5 +1,5 @@
 <template>
-  <div class="bg[#2E2E2F0D] py-20">
+  <div class="bg-[#2E2E2F0D] py-20">
     <div class=" container mx-auto">
         <Carousel v-bind="config">
           <Slide v-for="(slide, index) in slides" :key="index" class="py-6 px-3">
@@ -9,7 +9,7 @@
                   <img :src="slide.image" alt="Slide Image" class="rounded w-full" />
                 </div>
                 <div class="col-span-2 text-left">
-                  <h3 class="text-lg text-black font-bold mt-4">{{ slide.title }}</h3>
+                  <h3 class="text-lg text-black font-bold">{{ slide.title }}</h3>
                   <p class="text-black mt-2">{{ slide.description }}</p>
                   <a href="#" class="text-lg text-black font-bold underline">More</a>
                 </div>
@@ -31,7 +31,8 @@ import web from '../assets/images/web.svg';
 import mobile from '../assets/images/mobile.svg';
 import network from '../assets/images/network.svg';
 const config = {
-  itemsToShow: 3
+  itemsToShow: 3,
+  itemsToScroll:1,
 }
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
@@ -97,6 +98,16 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 }
 .carousel__pagination{
-  bottom: -20px !important;
+  bottom: -30px !important;
 }
+
+.carousel__slide--active{
+  scale: 1.2;
+}
+
+.carousel__slide{
+  padding: 40px;
+}
+
+
 </style>

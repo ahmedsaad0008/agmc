@@ -13,6 +13,7 @@ import cardano from '../assets/images/cardano.svg';
 import cloudConnection from '../assets/images/cloud-connection.svg';
 import monitorMobile from '../assets/images/monitor-mobbile.svg';
 import oceanProtocol from '../assets/images/ocean-protocol.svg';
+import bannerImage from '../assets/images/banner-image.jpg';
 </script>
 
 <template>
@@ -198,6 +199,29 @@ import oceanProtocol from '../assets/images/ocean-protocol.svg';
     </div>
 
     <Carsoual/>
+
+    <div class="text-gray-800">
+      <div class="container mx-auto p-8">
+        <!-- Header Section -->
+        <div class="text-center mb-12">
+          <h1 class="text-6xl font-bold">Products & Plateforms</h1>
+          <p class="text-[#374754] mt-4 text-3xl leading-relaxed">
+            Transform your business experience. Our products and platforms are fast-to-deploy, open-to-customize and work on-cloud, on-prem and in hybrid models
+          </p>
+        </div>
+      </div>
+        <div class="relative">
+          <img :src="bannerImage" class="w-full" alt="banner">
+          <div class="absolute bottom-20 px-20">
+            <h1 class="text-6xl font-bold text-white">SGT App</h1>
+            <p class="text-white mt-6 text-5xl leading-relaxed">
+              Drive business transformation with the power of Microsoft Dynamics 365.
+            </p>
+          </div>
+        </div>
+    </div>
+
+
 
   </main>
 </template>
