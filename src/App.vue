@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import logo from './assets/images/logo.png';
+import logo from './assets/images/agmc.png';
 import Banner from "@/components/Banner.vue";
 </script>
 
@@ -10,8 +10,8 @@ import Banner from "@/components/Banner.vue";
     <div class="navbar px-4">
       <!-- Logo Section -->
       <div class="navbar-start w-fit">
-        <a href="/" class="max-w-16 sm:max-w-full">
-          <img :src="logo" alt="agmc">
+        <a href="/" class="max-w-16 md:max-w-full">
+          <img :src="logo" alt="agmc" class="max-w-28">
         </a>
       </div>
 
@@ -92,7 +92,7 @@ import Banner from "@/components/Banner.vue";
       <div class="flex justify-between items-center">
         <!-- Logo -->
         <a href="#" class="text-3xl font-bold text-gradient bg-clip-text bg-gradient-to-r from-pink-500 via-blue-500 to-green-500">
-          <img :src="logo" alt="agmc">
+          <img :src="logo" alt="agmc" class="max-w-28">
         </a>
 
         <!-- Social Icons -->
