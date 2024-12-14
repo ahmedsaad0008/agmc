@@ -16,6 +16,17 @@ import flutter from '../assets/images/flutter.svg';
 import swift from '../assets/images/swift.svg';
 import android from '../assets/images/android.svg';
 import Banner from "@/components/Banner.vue";
+
+import AOS from 'aos';
+import {onMounted} from "vue";
+onMounted(() => {
+  AOS.init({
+    duration: 900,
+    offset: 100,
+    easing: "ease-in-out",
+    once: false,
+  })
+})
 </script>
 
 <template>
@@ -38,13 +49,13 @@ import Banner from "@/components/Banner.vue";
           </div>
         </div>
       <div class="col-span-1">
-        <img :src="mobile" alt="UI/UX Design" class="rounded w-full">
+        <img :src="mobile" alt="UI/UX Design" class="rounded w-full" data-aos="fade-left">
       </div>
     </div>
 
     <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
       <div class="col-span-1">
-        <img :src="web" alt="UI/UX Design" class="rounded w-full">
+        <img :src="web" alt="UI/UX Design" class="rounded w-full" data-aos="fade-right">
       </div>
       <div class="col-span-1 px-20 flex flex-col justify-around">
         <h3 class="text-5xl font-bold text-[#2E2E2F]">Web Development</h3>
@@ -70,7 +81,7 @@ import Banner from "@/components/Banner.vue";
         </div>
       </div>
       <div class="col-span-1">
-        <img :src="network" alt="UI/UX Design" class="rounded w-full">
+        <img :src="network" alt="UI/UX Design" class="rounded w-full" data-aos="fade-left">
       </div>
     </div>
   </section>

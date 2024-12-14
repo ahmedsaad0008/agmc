@@ -9,6 +9,17 @@ import Banner from "@/components/Banner.vue";
 import appleStore from '../assets/images/apple-store.svg';
 import googleStore from '../assets/images/google-store.svg';
 import qrCode from '../assets/images/qr-ode.svg';
+
+import AOS from 'aos';
+import {onMounted} from "vue";
+onMounted(() => {
+  AOS.init({
+    duration: 900,
+    offset: 100,
+    easing: "ease-in-out",
+    once: false,
+  })
+})
 </script>
 
 <template>
@@ -33,13 +44,13 @@ import qrCode from '../assets/images/qr-ode.svg';
         </div>
       </div>
       <div class="col-span-1">
-        <img :src="mobile" alt="UI/UX Design" class="rounded w-full">
+        <img :src="mobile" alt="UI/UX Design" class="rounded w-full" data-aos="fade-left">
       </div>
     </div>
 
     <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
       <div class="col-span-1">
-        <img :src="web" alt="UI/UX Design" class="rounded w-full">
+        <img :src="web" alt="UI/UX Design" class="rounded w-full" data-aos="fade-right">
       </div>
       <div class="col-span-1 px-20 flex flex-col justify-evenly">
         <h3 class="text-5xl font-bold text-[#2E2E2F]">SGT Dashboard</h3>
@@ -55,7 +66,7 @@ import qrCode from '../assets/images/qr-ode.svg';
         <p class="text-2xl text-[#575757]">We work closely with you during implementation and rollout, as well as post delivery of our solutions. </p>
       </div>
       <div class="col-span-1">
-        <img :src="network" alt="UI/UX Design" class="rounded w-full">
+        <img :src="network" alt="UI/UX Design" class="rounded w-full" data-aos="fade-left">
       </div>
     </div>
   </section>

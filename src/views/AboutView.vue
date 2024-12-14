@@ -12,13 +12,13 @@
         <button class="btn bg-[#6CBF8B] hover:bg-[#6CBF8B] px-8 py-3 w-fit">Read More</button>
       </div>
       <div class="col-span-1">
-        <img :src="about2" alt="UI/UX Design" class="rounded w-full">
+        <img :src="about2" alt="UI/UX Design" class="rounded w-full" data-aos="fade-left">
       </div>
     </div>
 
     <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
       <div class="col-span-1">
-        <img :src="about3" alt="UI/UX Design" class="rounded w-full">
+        <img :src="about3" alt="UI/UX Design" class="rounded w-full" data-aos="fade-right">
       </div>
       <div class="col-span-1 px-20 flex flex-col justify-center gap-6">
         <h3 class="text-5xl font-bold text-[#2E2E2F]">Enjoy Learning with a Unique Classroom Experience</h3>
@@ -34,7 +34,7 @@
         <button class="btn bg-[#6CBF8B] hover:bg-[#6CBF8B] px-8 py-3 w-fit">Read More</button>
       </div>
       <div class="col-span-1">
-        <img :src="about1" alt="UI/UX Design" class="rounded w-full">
+        <img :src="about1" alt="UI/UX Design" class="rounded w-full" data-aos="fade-left">
       </div>
     </div>
   </section>
@@ -48,4 +48,14 @@ import about1 from '../assets/images/about-1.svg';
 import about2 from '../assets/images/about-2.svg';
 import about3 from '../assets/images/about-3.svg';
 import Banner from "@/components/Banner.vue";
+import AOS from 'aos';
+import {onMounted} from "vue";
+onMounted(() => {
+  AOS.init({
+    duration: 900,
+    offset: 100,
+    easing: "ease-in-out",
+    once: false,
+  })
+})
 </script>
