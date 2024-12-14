@@ -237,7 +237,7 @@ const images = ref([
     </div>
 
     <div class="container mx-auto py-24">
-      <h4 class="text-center mb-12 font-bold text-xl">Support Company</h4>
+      <h4 class="text-center mb-12 text-[#2E2E2F] font-bold text-xl">Support Company</h4>
       <div class="grid grid-cols-2 md:grid-cols-5 items-center gap-6 md:gap-0">
         <div class="col-span-1 w-fit mx-auto" v-for="(im,i) in images" :key="i">
           <img :src="im" alt="logo">

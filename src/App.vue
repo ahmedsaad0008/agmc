@@ -11,19 +11,19 @@ import Banner from "@/components/Banner.vue";
       <!-- Logo Section -->
       <div class="navbar-start w-fit">
         <a href="/" class="max-w-16 md:max-w-full">
-          <img :src="logo" alt="agmc" class="max-w-28">
+          <img :src="logo" alt="agmc" class="max-w-32">
         </a>
       </div>
 
       <!-- Navigation Links -->
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 space-x-4 text-lg font-medium">
-          <li><router-link to="/" >Home</router-link></li>
-          <li><router-link to="/services">Services</router-link></li>
-          <li><router-link to="/projects">Projects</router-link></li>
-          <li><router-link to="/about-us">About Us</router-link></li>
-          <li><router-link to="/news">News</router-link></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><router-link to="/" class="items-link">Home</router-link></li>
+          <li><router-link to="/services" class="items-link">Services</router-link></li>
+          <li><router-link to="/projects" class="items-link">Projects</router-link></li>
+          <li><router-link to="/about-us" class="items-link">About Us</router-link></li>
+          <li><router-link to="/news" class="items-link">News</router-link></li>
+          <li><a href="#" class="items-link">Contact Us</a></li>
         </ul>
 
       </div>
@@ -34,7 +34,7 @@ import Banner from "@/components/Banner.vue";
           <input
               type="text"
               placeholder="Search"
-              class="input input-bordered rounded-full pl-4 pr-12 w-32 md:w-64 lg:w-96 focus:outline-none"
+              class="input input-bordered bg-white rounded-full pl-4 pr-12 w-32 md:w-64 lg:w-96 focus:outline-none"
           />
           <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black text-white rounded-full h-8 w-8 flex items-center justify-center">
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +92,7 @@ import Banner from "@/components/Banner.vue";
       <div class="flex justify-between items-center">
         <!-- Logo -->
         <a href="#" class="text-3xl font-bold text-gradient bg-clip-text bg-gradient-to-r from-pink-500 via-blue-500 to-green-500">
-          <img :src="logo" alt="agmc" class="max-w-28">
+          <img :src="logo" alt="agmc" class="max-w-32">
         </a>
 
         <!-- Social Icons -->
@@ -127,12 +127,12 @@ import Banner from "@/components/Banner.vue";
         <div>
           <h2 class="text-lg font-bold">Company</h2>
           <ul class="mt-4 space-y-2 flex flex-col sm:flex-row items-start sm:items-end md:gap-10 lg:gap-36 w-full">
-            <li><a href="#" class="hover:text-white">About Us</a></li>
-            <li><a href="#" class="hover:text-white">Press</a></li>
-            <li><a href="#" class="hover:text-white">Investors</a></li>
-            <li><a href="#" class="hover:text-white">Events</a></li>
-            <li><a href="#" class="hover:text-white">Terms of Use</a></li>
-            <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+            <li><router-link to="/" >Home</router-link></li>
+            <li><router-link to="/services">Services</router-link></li>
+            <li><router-link to="/projects">Projects</router-link></li>
+            <li><router-link to="/about-us">About Us</router-link></li>
+            <li><router-link to="/news">News</router-link></li>
+            <li><a href="#">Contact Us</a></li>
           </ul>
         </div>
 
@@ -146,5 +146,12 @@ import Banner from "@/components/Banner.vue";
 </template>
 
 <style scoped>
+.items-link{
+  color: #a8acba;
+  font-weight: bold;
+}
 
+.items-link.router-link-active{
+  color: #2E2E2F;
+}
 </style>
