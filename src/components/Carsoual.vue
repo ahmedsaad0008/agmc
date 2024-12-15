@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#2E2E2F0D] py-20">
-    <div class=" container mx-auto">
+    <div class=" container mx-auto" id="services">
         <Carousel :items-to-show="1" :breakpoints="breakpoints">
           <Slide v-for="(slide, index) in slides" :key="index" class="py-6 px-3">
             <div class="bg-white shadow-lg rounded-3xl p-6">
@@ -88,29 +88,29 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 </script>
 
-<style scoped>
+<style>
 /* Customize Owl Carousel if needed */
-.carousel__pagination-button::after {
+#services .carousel__pagination-button::after {
   background-color: #6CBF8B80 !important;
   padding: 5px 20px;
   border-radius: 10px;
 
 }
 
-.carousel__pagination-button--active::after {
+#services .carousel__pagination-button--active::after {
   background-color: #6CBF8B !important;
   padding: 5px 40px;
 
 }
-.carousel__pagination{
+#services .carousel__pagination{
   bottom: -30px !important;
 }
 
-.carousel__slide--active{
+#services .carousel__slide--active{
   scale: 1.2;
 }
 
-.carousel__slide{
+#services .carousel__slide{
   padding: 40px;
 }
 
