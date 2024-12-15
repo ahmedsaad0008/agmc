@@ -23,7 +23,7 @@ import Banner from "@/components/Banner.vue";
           <li><router-link to="/projects" class="items-link">Projects</router-link></li>
           <li><router-link to="/about-us" class="items-link">About Us</router-link></li>
           <li><router-link to="/news" class="items-link">News</router-link></li>
-          <li><a href="#" class="items-link">Contact Us</a></li>
+          <li><router-link to="/contact-us" class="items-link">Contact Us</router-link></li>
         </ul>
 
       </div>
@@ -68,7 +68,7 @@ import Banner from "@/components/Banner.vue";
                   <li><router-link to="/projects">Projects</router-link></li>
                   <li><router-link to="/about-us">About Us</router-link></li>
                   <li><router-link to="/news">News</router-link></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><router-link to="/contact-us">Contact Us</router-link></li>
                 </ul>
               </details>
             </li>
@@ -132,7 +132,7 @@ import Banner from "@/components/Banner.vue";
             <li><router-link to="/projects">Projects</router-link></li>
             <li><router-link to="/about-us">About Us</router-link></li>
             <li><router-link to="/news">News</router-link></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><router-link to="/contact-us">Contact Us</router-link></li>
           </ul>
         </div>
 
