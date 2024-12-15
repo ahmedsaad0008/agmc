@@ -24,6 +24,16 @@ import iframeModal from '../components/Iframe.vue';
 import {ref} from "vue";
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import AOS from 'aos';
+import {onMounted} from "vue";
+onMounted(() => {
+  AOS.init({
+    duration: 900,
+    offset: 100,
+    easing: "ease-in-out",
+    once: false,
+  })
+})
 
 const images = ref([
   google,
@@ -61,7 +71,7 @@ function openModal(e,u){
           <h2 class="text-[2rem] mb-6 text-[#374754] font-bold">Highlights</h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             <!-- Card 1 -->
-            <div class="px-20">
+            <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
                 <img :src="icRoundRestaurant">
                 <h4 class="text-[4rem] font-bold text-[#252B42]">600</h4>
@@ -70,7 +80,7 @@ function openModal(e,u){
               <p class="text-[#374754] text-start text-[1rem]">Total number of employees within the organization</p>
             </div>
             <!-- Card 3 -->
-            <div class="px-20">
+            <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
                 <img :src="icRoundRestaurant">
                 <h4 class="text-[4rem] font-bold text-[#252B42]">20</h4>
@@ -79,7 +89,7 @@ function openModal(e,u){
               <p class="text-[#374754] text-start text-[1rem]">Total number of offices around the world</p>
             </div>
             <!-- Card 4 -->
-            <div class="px-20">
+            <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
                 <img :src="icRoundRestaurant">
                 <h4 class="text-[4rem] font-bold text-[#252B42]">100</h4>
@@ -88,7 +98,7 @@ function openModal(e,u){
               <p class="text-[#374754] text-start text-[1rem]">Number of contracted partners</p>
             </div>
 
-            <div class="px-20">
+            <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
                 <img :src="icRoundRestaurant">
                 <h4 class="text-[4rem] font-bold text-[#252B42]">10</h4>
@@ -114,29 +124,29 @@ function openModal(e,u){
         <h1 class="text-[#2E2E2F] text-[3rem] font-bold">Latest Picks</h1>
         <p class="text-[#2E3E5C] text-[1.5rem] font-bold">Check Our Latest New , Event , webners And More.</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 mt-3">
-          <div class="col-span-1 px-4">
+          <div class="col-span-1 px-4" data-aos="fade-up">
             <img :src="image4" class="h-3/4 w-full rounded-[16px]">
             <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
             <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Link Development Bring The Latest Ai Advacecoment To Cairo ICT 2024</h2>
           </div>
           <div class="col-span-1 grid grid-cols-1 md:grid-cols-2 items-center">
             <div class="col-span-1">
-              <img :src="image5" class="rounded-[16px]">
+              <img :src="image5" class="rounded-[16px]" data-aos="fade-up">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Link Development Bring The Latest Ai Advacecoment To Cairo ICT 2024</h2>
             </div>
             <div class="col-span-1">
-              <img :src="image6" class="rounded-[16px]">
+              <img :src="image6" class="rounded-[16px]" data-aos="fade-up">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Link Development Bring The Latest Ai Advacecoment To Cairo ICT 2024</h2>
             </div>
             <div class="col-span-1">
-              <img :src="image7" class="rounded-[16px]">
+              <img :src="image7" class="rounded-[16px]" data-aos="fade-up">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Link Development Bring The Latest Ai Advacecoment To Cairo ICT 2024</h2>
             </div>
             <div class="col-span-1">
-              <img :src="image8" class="rounded-[16px]">
+              <img :src="image8" class="rounded-[16px]" data-aos="fade-up">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Link Development Bring The Latest Ai Advacecoment To Cairo ICT 2024</h2>
             </div>
@@ -161,7 +171,7 @@ function openModal(e,u){
       <!-- Features Section -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- Feature 1 -->
-        <div class="text-center px-6 flex flex-col justify-between items-center">
+        <div class="text-center px-6 flex flex-col justify-between items-center" data-aos="fade-up">
           <div>
           <div class="mb-4">
             <img :src="cardano" alt="Mobile Icon" class="mx-auto">
@@ -177,7 +187,7 @@ function openModal(e,u){
 
         </div>
         <!-- Feature 2 -->
-        <div class="text-center px-6 flex flex-col justify-between items-center">
+        <div class="text-center px-6 flex flex-col justify-between items-center" data-aos="fade-up">
           <div>
             <div class="mb-4">
               <img :src="monitorMobile" alt="Web Icon" class="mx-auto">
@@ -192,7 +202,7 @@ function openModal(e,u){
           </button>
         </div>
         <!-- Feature 3 -->
-        <div class="text-center px-6 flex flex-col justify-between items-center">
+        <div class="text-center px-6 flex flex-col justify-between items-center" data-aos="fade-up">
           <div>
           <div class="mb-4">
             <img :src="cloudConnection" alt="Cloud Icon" class="mx-auto">
@@ -207,7 +217,7 @@ function openModal(e,u){
           </button>
         </div>
         <!-- Feature 4 -->
-        <div class="text-center px-6 flex flex-col justify-between items-center">
+        <div class="text-center px-6 flex flex-col justify-between items-center" data-aos="fade-up">
           <div>
             <div class="mb-4">
               <img :src="oceanProtocol" alt="Power Apps Icon" class="mx-auto">
