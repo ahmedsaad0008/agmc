@@ -88,7 +88,7 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 </script>
 
-<style>
+<style scoped>
 /* Customize Owl Carousel if needed */
 .carousel__pagination-button::after {
   background-color: #6CBF8B80 !important;

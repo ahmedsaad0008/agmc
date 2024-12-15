@@ -20,7 +20,10 @@ import airbnt from '../assets/images/airbnt.svg';
 import creative from '../assets/images/creative.svg';
 import shopify from '../assets/images/shopify.svg';
 import amazon from '../assets/images/amazon.svg';
+import iframeModal from '../components/Iframe.vue';
 import {ref} from "vue";
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 const images = ref([
   google,
@@ -29,6 +32,15 @@ const images = ref([
   shopify,
   amazon,
 ]);
+
+const isModalOpen = ref(false);
+
+const url = ref(null)
+
+function openModal(e,u){
+  url.value = u;
+  isModalOpen.value = true;
+}
 </script>
 
 <template>
@@ -107,7 +119,7 @@ const images = ref([
             <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
             <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Link Development Bring The Latest Ai Advacecoment To Cairo ICT 2024</h2>
           </div>
-          <div class="col-span-1 grid-cols-1 sm:grid-cols-2 items-center">
+          <div class="col-span-1 grid grid-cols-1 md:grid-cols-2 items-center">
             <div class="col-span-1">
               <img :src="image5" class="rounded-[16px]">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
@@ -225,15 +237,67 @@ const images = ref([
           </p>
         </div>
       </div>
-        <div class="relative">
+      <Carousel :items-to-show="1"
+                :autoplay="true"
+                :transition="4000"
+                wrap-around
+                pause-autoplay-on-hover>
+        <Slide>
+        <div class="relative w-full">
           <img :src="bannerImage" class="w-full" alt="banner">
-          <div class="absolute bottom-4 md:bottom-20 px-20">
-            <h1 class="text-sm md:text-6xl font-bold text-white">SGT App</h1>
+          <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-16334&p=f&t=ya83jJhXV8G29ytA-0&scaling=min-zoom&content-scaling=fixed&page-id=94%3A2313&starting-point-node-id=94%3A16360')">
+            <h1 class="text-sm md:text-6xl font-bold text-white">SGT User App</h1>
             <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
               Drive business transformation with the power of Microsoft Dynamics 365.
             </p>
           </div>
         </div>
+        </Slide>
+        <Slide>
+          <div class="relative w-full">
+            <img :src="bannerImage" class="w-full" alt="banner">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-19126&p=f&t=3Hhlx0QkdrwPQ2rF-0&scaling=min-zoom&content-scaling=fixed&page-id=94%3A2312&starting-point-node-id=94%3A19148')">
+              <h1 class="text-sm md:text-6xl font-bold text-white">SGT Judge App</h1>
+              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+                Drive business transformation with the power of Microsoft Dynamics 365.
+              </p>
+            </div>
+          </div>
+        </Slide>
+        <Slide>
+          <div class="relative w-full">
+            <img :src="bannerImage" class="w-full" alt="banner">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-7402&p=f&t=3Hhlx0QkdrwPQ2rF-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1')">
+              <h1 class="text-sm md:text-6xl font-bold text-white">SGT Dashboard</h1>
+              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+                Drive business transformation with the power of Microsoft Dynamics 365.
+              </p>
+            </div>
+          </div>
+        </Slide>
+        <Slide>
+          <div class="relative w-full">
+            <img :src="bannerImage" class="w-full" alt="banner">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/IIq1ISVigF5ruOUTsCT1Np/wfdp-wallet?node-id=44-2260&p=f&t=GFpvOuG3OXXZ8C32-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1616')">
+              <h1 class="text-sm md:text-6xl font-bold text-white">WFDP Wallet</h1>
+              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+                Drive business transformation with the power of Microsoft Dynamics 365.
+              </p>
+            </div>
+          </div>
+        </Slide>
+        <Slide>
+          <div class="relative w-full">
+            <img :src="bannerImage" class="w-full" alt="banner">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/IIq1ISVigF5ruOUTsCT1Np/wfdp-wallet?node-id=44-2260&p=f&t=GFpvOuG3OXXZ8C32-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1616')">
+              <h1 class="text-sm md:text-6xl font-bold text-white">WFDP Wallet</h1>
+              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+                Drive business transformation with the power of Microsoft Dynamics 365.
+              </p>
+            </div>
+          </div>
+        </Slide>
+      </Carousel>
     </div>
 
     <div class="container mx-auto py-24">
@@ -246,4 +310,11 @@ const images = ref([
     </div>
 
   </main>
+
+  <iframeModal
+      :isOpen="isModalOpen"
+      :url="'https://www.figma.com/embed?embed_host=share&url='+url"
+      title="Example Iframe"
+      @close="isModalOpen = false"
+  />
 </template>
