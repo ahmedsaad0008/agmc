@@ -2,12 +2,12 @@
   <Banner/>
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
-      <h2 class="text-4xl font-bold">News</h2>
+      <h2 class="text-4xl font-bold text-black">News</h2>
     </div>
   <div class="flex flex-col md:flex-row gap-8 p-8">
     <!-- Main Article Section -->
     <div class="flex-1">
-      <h1 class="text-2xl font-bold mb-4">The Scalability Solution: Understanding Layer One vs. Layer Two Blockchains</h1>
+      <h1 class="text-2xl text-black font-bold mb-4">The Scalability Solution: Understanding Layer One vs. Layer Two Blockchains</h1>
       <p class="text-gray-500 text-sm mb-6">20 Sep 2023, 8:00pm</p>
       <img
           :src="News"
@@ -39,7 +39,7 @@
 
     <!-- More News Section -->
     <div class="w-full md:w-1/3">
-      <h2 class="text-xl font-bold mb-4">More News</h2>
+      <h2 class="text-xl font-bold mb-4 text-black">More News</h2>
       <div class="space-y-4">
         <div
             v-for="(news, index) in moreNews"
@@ -53,7 +53,7 @@
           />
           <div class="flex flex-col justify-between h-100">
             <div>
-              <h3 class="text-xl font-semibold">{{ news.title }}</h3>
+              <h3 class="text-xl font-semibold text-black">{{ news.title }}</h3>
               <p class="text-sm text-gray-500">{{ news.desc }}</p>
             </div>
             <p class="text-sm text-gray-500">{{ news.date }}</p>

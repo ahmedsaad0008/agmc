@@ -112,7 +112,7 @@ function openModal(e,u){
         <!-- Contact Us Button -->
         <div class="flex flex-row justify-center items-center">
           <div class="w-full flex justify-center">
-            <button class="btn bg-[#6CBF8B] hover:bg-[#6CBF8B] ms-[10%] px-8 py-3">Contact Us</button>
+            <button class="btn bg-[#6CBF8B] hover:bg-[#6CBF8B] ms-[10%] px-8 py-3 text-black">Contact Us</button>
           </div>
           <img :src="points" class="max-w-16 md:max-w-16 lg:max-w-full" alt="">
         </div>

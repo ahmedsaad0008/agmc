@@ -30,20 +30,7 @@ import Banner from "@/components/Banner.vue";
 
       <!-- Search Bar -->
       <div class="navbar-end w-full">
-        <div class="relative">
-          <input
-              type="text"
-              placeholder="Search"
-              class="input input-bordered bg-white rounded-full pl-4 pr-12 w-32 md:w-64 lg:w-96 focus:outline-none"
-          />
-          <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black text-white rounded-full h-8 w-8 flex items-center justify-center">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24.4087" cy="24" r="23.5" fill="#2E2E2F"/>
-              <path d="M34.6216 31.7949L30.52 27.6934C30.3149 27.5293 30.0688 27.4062 29.8228 27.4062H29.1665C30.2739 25.9707 30.9712 24.166 30.9712 22.1562C30.9712 17.4805 27.1157 13.625 22.4399 13.625C17.7231 13.625 13.9087 17.4805 13.9087 22.1562C13.9087 26.873 17.7231 30.6875 22.4399 30.6875C24.4087 30.6875 26.2134 30.0312 27.6899 28.8828V29.5801C27.6899 29.8262 27.772 30.0723 27.9771 30.2773L32.0376 34.3379C32.4478 34.748 33.063 34.748 33.4321 34.3379L34.5806 33.1895C34.9907 32.8203 34.9907 32.2051 34.6216 31.7949ZM22.4399 27.4062C19.5278 27.4062 17.1899 25.0684 17.1899 22.1562C17.1899 19.2852 19.5278 16.9062 22.4399 16.9062C25.311 16.9062 27.6899 19.2852 27.6899 22.1562C27.6899 25.0684 25.311 27.4062 22.4399 27.4062Z" fill="white"/>
-            </svg>
 
-          </button>
-        </div>
 
         <div class="flex-none block lg:hidden">
           <ul class="menu menu-horizontal px-1">

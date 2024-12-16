@@ -99,10 +99,16 @@ import location from '../assets/images/location.svg';
 
 <style scoped>
 #contact-info{
-  background-image: url("src/assets/images/word.svg");
+  background-image: url("@/assets/images/word.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: cover;
 
+}
+
+input,textarea{
+  background: #ffffff;
+}
+label{
+  color: #000;
 }
 </style>

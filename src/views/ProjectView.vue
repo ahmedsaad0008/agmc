@@ -26,7 +26,7 @@ onMounted(() => {
   <Banner/>
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
-      <h2 class="text-4xl font-bold">Projects</h2>
+      <h2 class="text-4xl font-bold text-black">Projects</h2>
     </div>
 
     <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
