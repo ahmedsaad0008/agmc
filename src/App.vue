@@ -115,7 +115,7 @@ import Banner from "@/components/Banner.vue";
 
       <!-- Copyright Section -->
       <div class="text-center mt-8">
-        <p class="text-sm">&copy; Power 2021 - All Rights Reserved</p>
+        <p class="text-sm">&copy; Power 2024 - All Rights Reserved</p>
       </div>
     </div>
   </footer>
