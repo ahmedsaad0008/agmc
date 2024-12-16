@@ -69,6 +69,28 @@ onMounted(() => {
         <img :src="network" alt="UI/UX Design" class="rounded w-full" data-aos="fade-left">
       </div>
     </div>
+
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
+      <div class="col-span-1">
+        <img :src="web" alt="UI/UX Design" class="rounded w-full" data-aos="fade-right">
+      </div>
+      <div class="col-span-1 px-20 flex flex-col justify-evenly">
+        <h3 class="text-5xl font-bold text-[#2E2E2F]">SVS</h3>
+        <p class="text-2xl text-[#575757]">Our FirstWave support engineers are highly skilled and experienced in NMIS, Open-AudIT and all of our commercial products and helped customers from Telcos, MSP, enterprise organisations.</p>
+        <p class="text-2xl text-[#575757]">We work closely with you during implementation and rollout, as well as post delivery of our solutions. </p>
+      </div>
+    </div>
+
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+      <div class="col-span-1 px-20 flex flex-col justify-evenly">
+        <h3 class="text-5xl font-bold text-[#2E2E2F]">WFDP</h3>
+        <p class="text-2xl text-[#575757]">Our FirstWave support engineers are highly skilled and experienced in NMIS, Open-AudIT and all of our commercial products and helped customers from Telcos, MSP, enterprise organisations.</p>
+        <p class="text-2xl text-[#575757]">We work closely with you during implementation and rollout, as well as post delivery of our solutions. </p>
+      </div>
+      <div class="col-span-1">
+        <img :src="network" alt="UI/UX Design" class="rounded w-full" data-aos="fade-left">
+      </div>
+    </div>
   </section>
 </template>
 
