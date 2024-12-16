@@ -1,10 +1,17 @@
 <script setup>
 import banner from '../assets/images/banner.png';
 import construct from '../assets/images/construct.png';
+defineProps({
+  image: {
+    default: banner,
+    type: String
+  }
+})
+
 </script>
 
 <template>
-  <section class="bg-white">
+  <section class="bg-white mb-20">
     <div class="container mx-auto flex flex-col md:flex-row md:items-center md:justify-between">
       <!-- Text Content -->
       <div class=" md:text-left md:w-1/2 px-4 self-start mt-7">
@@ -21,9 +28,9 @@ import construct from '../assets/images/construct.png';
       </div>
 
       <!-- Image Content -->
-      <div class="">
+      <div class="w-1/3">
           <!-- Image with circular green border -->
-          <img :src="banner" alt="Virtual Reality" class="w-full"/>
+          <img :src="image" alt="Virtual Reality" class="w-[400px] h-[400px] object-cover rounded-full "/>
       </div>
     </div>
   </section>

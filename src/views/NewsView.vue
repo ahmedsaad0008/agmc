@@ -1,5 +1,5 @@
 <template>
-  <Banner/>
+  <Banner :image="bannerImage"/>
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold text-black">News</h2>
@@ -69,6 +69,7 @@
 import { ref } from "vue";
 import Banner from "@/components/Banner.vue";
 import News from "../assets/images/news.svg";
+import bannerImage from '@/assets/images/slider2.jpeg'
 
 
     const moreNews = ref([

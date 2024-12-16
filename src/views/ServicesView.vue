@@ -6,7 +6,7 @@ import network from '../assets/images/network.svg';
 import figma from '../assets/images/figma.svg';
 import xd from '../assets/images/xd.svg';
 import sketch from '../assets/images/sketch.svg';
-
+import bannerImage from '@/assets/images/slider5.jpeg';
 
 import html from '../assets/images/html.svg';
 import java from '../assets/images/java.svg';
@@ -31,7 +31,7 @@ onMounted(() => {
 
 <template>
 
-  <Banner/>
+  <Banner :image="bannerImage" />
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold text-black">Services</h2>

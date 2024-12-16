@@ -5,7 +5,7 @@ import mobile from "@/assets/images/group-1.svg";
 import web from "@/assets/images/group-2.svg";
 import network from "@/assets/images/group-3.svg";
 import Banner from "@/components/Banner.vue";
-
+import bannerImage from '@/assets/images/slider3.jpeg';
 import appleStore from '../assets/images/apple-store.svg';
 import googleStore from '../assets/images/google-store.svg';
 import qrCode from '../assets/images/qr-ode.svg';
@@ -23,7 +23,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <Banner/>
+  <Banner :image="bannerImage"/>
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold text-black">Projects</h2>

@@ -8,7 +8,7 @@ import image5 from '../assets/images/image_5.png';
 import image6 from '../assets/images/image_6.png';
 import image7 from '../assets/images/image_7.png';
 import image8 from '../assets/images/image_8.png';
-
+import sliderImage from  '@//assets/images/slider3.jpeg';
 import cardano from '../assets/images/cardano.svg';
 import cloudConnection from '../assets/images/cloud-connection.svg';
 import monitorMobile from '../assets/images/monitor-mobbile.svg';
@@ -56,7 +56,8 @@ function openModal(e,u){
 
 <template>
   <main>
-    <Banner/>
+    <Banner :image="sliderImage" />
+
     <VideoBanner/>
     <div class="bg-[#f4f4f4] text-[#2E3E5C]">
       <div class="container mx-auto p-6">

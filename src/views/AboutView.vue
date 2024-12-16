@@ -1,5 +1,5 @@
 <template>
-  <Banner/>
+  <Banner :image="bannerImage"/>
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold text-black">About Us</h2>
@@ -49,6 +49,7 @@ import about2 from '../assets/images/about-2.svg';
 import about3 from '../assets/images/about-3.svg';
 import Banner from "@/components/Banner.vue";
 import AOS from 'aos';
+import bannerImage from '@/assets/images/slider1.jpeg'
 import {onMounted} from "vue";
 onMounted(() => {
   AOS.init({
