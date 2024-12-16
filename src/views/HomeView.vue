@@ -133,22 +133,22 @@ function openModal(e,u){
             <div class="col-span-1">
               <img :src="image5" class="rounded-[16px]" data-aos="fade-up">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Discover the latest trends and tools in mobile development at this exciting event! Engage with industry experts, explore innovative technologies, and enhance your skills in creating seamless, high-performing mobile applications for iOS and Android. Ideal for developers, designers, and tech enthusiasts.</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Discover the latest trends and tools in mobile development at this exciting event! Engage with industry experts, explore innovative technologies, and enhance your skills in creating seamless, high-performing mobile applications for iOS and Android. Ideal for developers, designers, and tech enthusiasts.</h2>
             </div>
             <div class="col-span-1">
               <img :src="image6" class="rounded-[16px]" data-aos="fade-up">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Join us for an engaging event on web development! Dive into the latest technologies, frameworks, and best practices to build modern, responsive, and high-performing websites. Perfect for developers, designers, and web enthusiasts looking to sharpen their skills and stay ahead in the industry.</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Join us for an engaging event on web development! Dive into the latest technologies, frameworks, and best practices to build modern, responsive, and high-performing websites. Perfect for developers, designers, and web enthusiasts looking to sharpen their skills and stay ahead in the industry.</h2>
             </div>
             <div class="col-span-1">
               <img :src="image7" class="rounded-[16px]" data-aos="fade-up">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Join us for an engaging event on web development! Dive into the latest technologies, frameworks, and best practices to build modern, responsive, and high-performing websites. Perfect for developers, designers, and web enthusiasts looking to sharpen their skills and stay ahead in the industry.</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Join us for an engaging event on web development! Dive into the latest technologies, frameworks, and best practices to build modern, responsive, and high-performing websites. Perfect for developers, designers, and web enthusiasts looking to sharpen their skills and stay ahead in the industry.</h2>
             </div>
             <div class="col-span-1">
               <img :src="image8" class="rounded-[16px]" data-aos="fade-up">
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Explore the future of front-end development at this dynamic event! Learn about the latest tools, frameworks, and design principles to create intuitive, responsive, and user-friendly interfaces. Perfect for developers and designers passionate about crafting exceptional user experiences</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Explore the future of front-end development at this dynamic event! Learn about the latest tools, frameworks, and design principles to create intuitive, responsive, and user-friendly interfaces. Perfect for developers and designers passionate about crafting exceptional user experiences</h2>
             </div>
           </div>
         </div>
