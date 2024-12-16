@@ -11,7 +11,6 @@
                 <div class="col-span-2 text-left">
                   <h3 class="text-lg text-black font-bold">{{ slide.title }}</h3>
                   <p class="text-black mt-2">{{ slide.description }}</p>
-                  <a href="#" class="text-lg text-black font-bold underline">More</a>
                 </div>
               </div>
             </div>
