@@ -26,6 +26,7 @@ import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import AOS from 'aos';
 import {onMounted} from "vue";
+import VideoBanner from "@/components/VideoBanner.vue";
 onMounted(() => {
   AOS.init({
     duration: 900,
@@ -55,6 +56,7 @@ function openModal(e,u){
 
 <template>
   <main>
+    <VideoBanner/>
     <Banner/>
     <div class="bg-[#f4f4f4] text-[#2E3E5C]">
       <div class="container mx-auto p-6">
