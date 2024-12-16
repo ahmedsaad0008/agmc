@@ -56,8 +56,8 @@ function openModal(e,u){
 
 <template>
   <main>
-    <VideoBanner/>
     <Banner/>
+    <VideoBanner/>
     <div class="bg-[#f4f4f4] text-[#2E3E5C]">
       <div class="container mx-auto p-6">
         <!-- Header Section -->
