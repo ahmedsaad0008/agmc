@@ -241,7 +241,7 @@ function openModal(e,u){
       <div class="container mx-auto p-8">
         <!-- Header Section -->
         <div class="text-center mb-12">
-          <h1 class="text-6xl font-bold">Products & Plateforms</h1>
+          <h1 class="text-6xl font-bold">Products & Platforms</h1>
           <p class="text-[#374754] mt-4 text-3xl leading-relaxed">
             Transform your business experience. Our products and platforms are fast-to-deploy, open-to-customize and work on-cloud, on-prem and in hybrid models
           </p>
