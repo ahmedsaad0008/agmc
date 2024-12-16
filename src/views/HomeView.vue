@@ -300,7 +300,7 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/IIq1ISVigF5ruOUTsCT1Np/wfdp-wallet?node-id=44-2260&p=f&t=GFpvOuG3OXXZ8C32-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1616')">
-              <h1 class="text-sm md:text-6xl font-bold text-white">SVS Wallet</h1>
+              <h1 class="text-sm md:text-6xl font-bold text-white">SVS</h1>
               <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
               </p>
