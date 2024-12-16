@@ -74,7 +74,7 @@ function openModal(e,u){
             <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
                 <img :src="icRoundRestaurant">
-                <h4 class="text-[4rem] font-bold text-[#252B42]">600</h4>
+                <h4 class="text-[4rem] font-bold text-[#252B42]">120</h4>
               </div>
               <p class="text-[#374754] text-start font-bold text-[1rem]">Employees</p>
               <p class="text-[#374754] text-start text-[1rem]">Total number of employees within the organization</p>
@@ -83,7 +83,7 @@ function openModal(e,u){
             <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
                 <img :src="icRoundRestaurant">
-                <h4 class="text-[4rem] font-bold text-[#252B42]">20</h4>
+                <h4 class="text-[4rem] font-bold text-[#252B42]">5</h4>
               </div>
               <p class="text-[#374754] text-start font-bold text-[1rem]">Global Offices</p>
               <p class="text-[#374754] text-start text-[1rem]">Total number of offices around the world</p>
@@ -92,16 +92,16 @@ function openModal(e,u){
             <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
                 <img :src="icRoundRestaurant">
-                <h4 class="text-[4rem] font-bold text-[#252B42]">100</h4>
+                <h4 class="text-[4rem] font-bold text-[#252B42]">10</h4>
               </div>
-              <p class="text-[#374754] text-start font-bold text-[1rem]">Partenrs</p>
+              <p class="text-[#374754] text-start font-bold text-[1rem]">Partners</p>
               <p class="text-[#374754] text-start text-[1rem]">Number of contracted partners</p>
             </div>
 
             <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
                 <img :src="icRoundRestaurant">
-                <h4 class="text-[4rem] font-bold text-[#252B42]">10</h4>
+                <h4 class="text-[4rem] font-bold text-[#252B42]">5</h4>
               </div>
               <p class="text-[#374754] text-start font-bold text-[1rem]">Countries</p>
               <p class="text-[#374754] text-start text-[1rem]">Number of contracted partners</p>
@@ -300,7 +300,18 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/IIq1ISVigF5ruOUTsCT1Np/wfdp-wallet?node-id=44-2260&p=f&t=GFpvOuG3OXXZ8C32-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1616')">
-              <h1 class="text-sm md:text-6xl font-bold text-white">WFDP Wallet</h1>
+              <h1 class="text-sm md:text-6xl font-bold text-white">SVS Wallet</h1>
+              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+                Drive business transformation with the power of Microsoft Dynamics 365.
+              </p>
+            </div>
+          </div>
+        </Slide>
+        <Slide>
+          <div class="relative w-full">
+            <img :src="bannerImage" class="w-full" alt="banner">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/28qNcUatVXDdGoQN29hSse/WFDP?node-id=1-282&p=f&t=QSErSm00I76vXcoB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A282')">
+              <h1 class="text-sm md:text-6xl font-bold text-white">WFDP</h1>
               <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
               </p>
