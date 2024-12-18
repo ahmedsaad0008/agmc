@@ -102,8 +102,8 @@ import Banner from "@/components/Banner.vue";
 
       <!-- Links Section -->
         <div>
-          <h2 class="text-lg font-bold">Company</h2>
-          <ul class="mt-4 space-y-2 flex flex-col sm:flex-row items-start sm:items-end md:gap-10 lg:gap-36 w-full">
+          <h2 class="text-lg font-bold text-center lg:text-start">Company</h2>
+          <ul class="mt-4 space-y-2 flex flex-col lg:items-start justify-center lg:justify-start sm:flex-row items-center sm:items-end md:gap-10 lg:gap-36 w-full">
             <li><router-link to="/" >Home</router-link></li>
             <li><router-link to="/services">Services</router-link></li>
             <li><router-link to="/projects">Projects</router-link></li>

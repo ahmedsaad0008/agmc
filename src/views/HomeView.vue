@@ -72,7 +72,7 @@ function openModal(e,u){
         <!-- Highlights Section -->
         <div class="text-center">
           <h2 class="text-[2rem] mb-6 text-[#374754] font-bold">Highlights</h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Card 1 -->
             <div class="px-20" data-aos="fade-up">
               <div class=" flex flex-row justify-start items-center gap-3">
@@ -126,30 +126,30 @@ function openModal(e,u){
       <div class="container mx-auto">
         <h1 class="text-[#2E2E2F] text-[3rem] font-bold">Latest Picks</h1>
         <p class="text-[#2E3E5C] text-[1.5rem] font-bold">Check Our Latest New , Event , webners And More.</p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 mt-3">
-          <div class="col-span-1 px-4" data-aos="fade-up">
+        <div class="grid grid-cols-1 lg:grid-cols-2 mt-3">
+          <div class="col-span-1 px-4 h-fit" data-aos="fade-up">
             <img :src="image4" class="h-3/4 w-full rounded-[16px]">
             <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
             <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Discover the latest trends and tools in mobile development at this exciting event! Engage with industry experts, explore innovative technologies, and enhance your skills in creating seamless, high-performing mobile applications for iOS and Android. Ideal for developers, designers, and tech enthusiasts.</h2>
           </div>
-          <div class="col-span-1 grid grid-cols-1 md:grid-cols-2 items-center">
-            <div class="col-span-1">
-              <img :src="image5" class="rounded-[16px]" data-aos="fade-up">
+          <div class="col-span-1 grid grid-cols-1 md:grid-cols-2 items-center p-6">
+            <div class="col-span-1 "data-aos="fade-up">
+              <img :src="image5" class="rounded-[16px] w-full md:w-fit lg:w-fit" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Discover the latest trends and tools in mobile development at this exciting event! Engage with industry experts, explore innovative technologies, and enhance your skills in creating seamless, high-performing mobile applications for iOS and Android. Ideal for developers, designers, and tech enthusiasts.</h2>
             </div>
-            <div class="col-span-1">
-              <img :src="image6" class="rounded-[16px]" data-aos="fade-up">
+            <div class="col-span-1" data-aos="fade-up">
+              <img :src="image6" class="rounded-[16px] w-full md:w-fit lg:w-fit" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Join us for an engaging event on web development! Dive into the latest technologies, frameworks, and best practices to build modern, responsive, and high-performing websites. Perfect for developers, designers, and web enthusiasts looking to sharpen their skills and stay ahead in the industry.</h2>
             </div>
-            <div class="col-span-1">
-              <img :src="image7" class="rounded-[16px]" data-aos="fade-up">
+            <div class="col-span-1" data-aos="fade-up">
+              <img :src="image7" class="rounded-[16px] w-full md:w-fit lg:w-fit" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Join us for an engaging event on web development! Dive into the latest technologies, frameworks, and best practices to build modern, responsive, and high-performing websites. Perfect for developers, designers, and web enthusiasts looking to sharpen their skills and stay ahead in the industry.</h2>
             </div>
-            <div class="col-span-1">
-              <img :src="image8" class="rounded-[16px]" data-aos="fade-up">
+            <div class="col-span-1" data-aos="fade-up">
+              <img :src="image8" class="rounded-[16px] w-full md:w-fit lg:w-fit" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Explore the future of front-end development at this dynamic event! Learn about the latest tools, frameworks, and design principles to create intuitive, responsive, and user-friendly interfaces. Perfect for developers and designers passionate about crafting exceptional user experiences</h2>
             </div>
@@ -259,8 +259,8 @@ function openModal(e,u){
         <div class="relative w-full">
           <img :src="bannerImage" class="w-full" alt="banner">
           <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-16334&p=f&t=ya83jJhXV8G29ytA-0&scaling=min-zoom&content-scaling=fixed&page-id=94%3A2313&starting-point-node-id=94%3A16360')">
-            <h1 class="text-sm md:text-6xl font-bold text-white">SGT User App</h1>
-            <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+            <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT User App</h1>
+            <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
               Drive business transformation with the power of Microsoft Dynamics 365.
             </p>
           </div>
@@ -270,8 +270,8 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-19126&p=f&t=3Hhlx0QkdrwPQ2rF-0&scaling=min-zoom&content-scaling=fixed&page-id=94%3A2312&starting-point-node-id=94%3A19148')">
-              <h1 class="text-sm md:text-6xl font-bold text-white">SGT Judge App</h1>
-              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT Judge App</h1>
+              <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
               </p>
             </div>
@@ -281,8 +281,8 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-7402&p=f&t=3Hhlx0QkdrwPQ2rF-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1')">
-              <h1 class="text-sm md:text-6xl font-bold text-white">SGT Dashboard</h1>
-              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT Dashboard</h1>
+              <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
               </p>
             </div>
@@ -292,8 +292,8 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/IIq1ISVigF5ruOUTsCT1Np/wfdp-wallet?node-id=44-2260&p=f&t=GFpvOuG3OXXZ8C32-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1616')">
-              <h1 class="text-sm md:text-6xl font-bold text-white">WFDP Wallet</h1>
-              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">WFDP Wallet</h1>
+              <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
               </p>
             </div>
@@ -303,8 +303,8 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/IIq1ISVigF5ruOUTsCT1Np/wfdp-wallet?node-id=44-2260&p=f&t=GFpvOuG3OXXZ8C32-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1616')">
-              <h1 class="text-sm md:text-6xl font-bold text-white">SVS</h1>
-              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SVS</h1>
+              <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
               </p>
             </div>
@@ -314,8 +314,8 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/28qNcUatVXDdGoQN29hSse/WFDP?node-id=1-282&p=f&t=QSErSm00I76vXcoB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A282')">
-              <h1 class="text-sm md:text-6xl font-bold text-white">WFDP</h1>
-              <p class="text-white mt-6 text-sm md:text-5xl leading-relaxed">
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">WFDP</h1>
+              <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
               </p>
             </div>
