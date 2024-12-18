@@ -4,7 +4,7 @@
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold text-black">News</h2>
     </div>
-  <div class="flex flex-col md:flex-row gap-8 p-8">
+  <div class="flex flex-col lg:flex-row gap-8 p-8">
     <!-- Main Article Section -->
     <div class="flex-1">
       <h1 class="text-2xl text-black font-bold mb-4">The Scalability Solution: Understanding Layer One vs. Layer Two Blockchains</h1>
@@ -38,7 +38,7 @@
     </div>
 
     <!-- More News Section -->
-    <div class="w-full md:w-1/3">
+    <div class="w-full lg:w-1/3">
       <h2 class="text-xl font-bold mb-4 text-black">More News</h2>
       <div class="space-y-4">
         <div

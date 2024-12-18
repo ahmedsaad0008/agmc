@@ -29,7 +29,7 @@ import Banner from "@/components/Banner.vue";
       </div>
 
       <!-- Search Bar -->
-      <div class="navbar-end w-full">
+      <div class="navbar-end w-[50%] md:w-full">
 
 
         <div class="flex-none block lg:hidden">
