@@ -81,7 +81,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="col-span-1 order-first  md:order-last">
-        <img :src="network" alt="UI/UX Design" class="rounded w-full  w-3/4 mx-auto lg:w-full" data-aos="fade-left">
+        <img :src="network" alt="UI/UX Design" class="rounded w-3/4 mx-auto lg:w-full" data-aos="fade-left">
       </div>
     </div>
   </section>
