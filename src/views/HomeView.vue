@@ -27,6 +27,7 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import AOS from 'aos';
 import {onMounted} from "vue";
 import VideoBanner from "@/components/VideoBanner.vue";
+import router from "@/router/index.js";
 onMounted(() => {
   AOS.init({
     duration: 900,
@@ -115,7 +116,7 @@ function openModal(e,u){
         <!-- Contact Us Button -->
         <div class="flex flex-row justify-center items-center">
           <div class="w-full flex justify-center">
-            <button class="btn bg-[#6CBF8B] hover:bg-[#6CBF8B] ms-[10%] px-8 py-3 text-black">Contact Us</button>
+            <button @click="router.push({ name: 'contact-us' })" class="btn bg-[#6CBF8B] hover:bg-[#6CBF8B] ms-[10%] px-8 py-3 text-black">Contact Us</button>
           </div>
           <img :src="points" class="max-w-16 md:max-w-16 lg:max-w-full" alt="">
         </div>
