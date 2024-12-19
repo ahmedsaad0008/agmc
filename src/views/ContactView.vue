@@ -83,7 +83,7 @@
         </div>
       </div>
       <div class="mt-6 flex flex-row justify-end">
-        <button class="btn btn-success ">Contact Us</button>
+        <button class="btn btn-success bg-[#597CBD] hover:bg-[#597CBD] ">Contact Us</button>
       </div>
     </div>
   </div>
