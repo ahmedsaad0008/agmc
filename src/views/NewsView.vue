@@ -69,57 +69,61 @@
 import { ref } from "vue";
 import Banner from "@/components/Banner.vue";
 import News from "../assets/images/news.svg";
+import News1 from "../assets/images/news1.jpeg";
+import News2 from "../assets/images/news2.jpeg";
+import News3 from "../assets/images/news3.jpeg";
+import News4 from "../assets/images/news4.jpeg";
 import bannerImage from '@/assets/images/slider2.jpeg'
 
 
     const moreNews = ref([
       {
-        title: "U.S. downs suspected Chinese spy balloon",
-        desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
+        title: "AGMC Launches Next-Gen Test Management Tool",
+        desc: " Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.",
         date: "27 Dec 2020",
-        image: News
+        image: News1
+      },
+      {
+        title: "AGMC Partners with Global Retail Giant for Custom Mobile App Development",
+        desc: "We're proud to announce our collaboration with a major retailer to deliver a next-level shopping experience.",
+        date: "27 Dec 2020",
+        image: News2
+      },
+      {
+        title: "AGMC Achieves ISO Certification for Software Quality Assurance",
+        desc: "This milestone reflects our commitment to delivering world-class software solutions.",
+        date: "27 Dec 2020",
+        image: News3
+      },
+      {
+        title: "New Office, New Possibilities!",
+        desc: " AGMC opens a state-of-the-art office to support our growing team of software innovators.",
+        date: "27 Dec 2020",
+        image: News4
       },
       {
         title: "U.S. downs suspected Chinese spy balloon",
         desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
         date: "27 Dec 2020",
-        image: News
+        image: News1
       },
       {
-        title: "U.S. downs suspected Chinese spy balloon",
-        desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
+        title: "AGMC Launches Next-Gen Test Management Tool",
+        desc: " Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.",
         date: "27 Dec 2020",
-        image: News
+        image: News2
       },
       {
-        title: "U.S. downs suspected Chinese spy balloon",
-        desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
+        title: "AGMC Partners with Global Retail Giant for Custom Mobile App Development",
+        desc: "We're proud to announce our collaboration with a major retailer to deliver a next-level shopping experience.",
         date: "27 Dec 2020",
-        image: News
+        image: News3
       },
       {
-        title: "U.S. downs suspected Chinese spy balloon",
-        desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
+        title: "AGMC Achieves ISO Certification for Software Quality Assurance",
+        desc: "This milestone reflects our commitment to delivering world-class software solutions.",
         date: "27 Dec 2020",
-        image: News
-      },
-      {
-        title: "U.S. downs suspected Chinese spy balloon",
-        desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
-        date: "27 Dec 2020",
-        image: News
-      },
-      {
-        title: "U.S. downs suspected Chinese spy balloon",
-        desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
-        date: "27 Dec 2020",
-        image: News
-      },
-      {
-        title: "U.S. downs suspected Chinese spy balloon",
-        desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
-        date: "27 Dec 2020",
-        image: News
+        image: News4
       },
     ]);
 
