@@ -7,33 +7,15 @@
   <div class="flex flex-col lg:flex-row gap-8 p-8">
     <!-- Main Article Section -->
     <div class="flex-1">
-      <h1 class="text-2xl text-black font-bold mb-4">The Scalability Solution: Understanding Layer One vs. Layer Two Blockchains</h1>
-      <p class="text-gray-500 text-sm mb-6">20 Sep 2023, 8:00pm</p>
+      <h1 class="text-2xl text-black font-bold mb-4">{{ selectedObject.title }}}</h1>
+      <p class="text-gray-500 text-sm mb-6">{{ selectedObject.date }}</p>
       <img
-          :src="News"
+          :src="selectedObject.image"
           alt="Blockchain Image"
           class="w-full rounded-lg mb-6"
       />
       <p class="text-gray-700 text-xl mb-4 leading-6">
-        Layer one or L1 refers to a base blockchain protocol like Bitcoin or Ethereum. These networks operate on a decentralized ledger secured by proof-of-work (PoW) mining or proof-of-stake (PoS) staking. L1 chains such as Bitcoin and Ethereum offer unparalleled security. However, during peak times, both of these chains grapple with sluggish transaction speeds and steep fees.
-      </p>
-      <p class="text-gray-700 leading-6 text-xl mb-4">
-        Developers from several L1 networks are working to improve layer one scaling through methods like increasing block size, sharding, and introducing proof-of-stake consensus. However, substantial layer one upgrades require coordination among node operators and can take years to implement. Some blockchains intend to use L2 protocols as either a temporary or long-term solution.
-        </p>
-      <p class="text-gray-700 leading-6 text-xl mb-4">
-        Bitcoin’s Lightning Network (LN) is a second-layer scaling solution designed to facilitate faster, low-cost transactions on the Bitcoin blockchain (L1). It operates on top of Bitcoin’s base layer, allowing for instant payments by circumventing the need for block confirmations.
-        </p>
-      <p class="text-gray-700 leading-6 text-xl mb-4">
-        Transactions on the Lightning Network occur off-chain in payment channels between users. Only channel open and close transactions are recorded on the Bitcoin blockchain. Participants can transact multiple times within these channels, reducing congestion and fees on L1.
-        </p>
-      <p class="text-gray-700 leading-6 text-xl mb-4">
-        Critics target LN for its prevalent use of custodial wallets, as these demand users place trust in third parties to handle their money. Moreover, the off-chain method poses a risk: if nodes lack proper backup, it could trigger an irrevocable loss of funds.
-        </p>
-      <p class="text-gray-700 leading-6 text-xl mb-4">
-        Loopring uses zero-knowledge rollups (ZK-rollups) to batch hundreds of transactions off-chain and generate a cryptographic proof verifying their validity. This proof is submitted to layer one (Ethereum), avoiding the need to process each transaction on-chain.
-        </p>
-      <p class="text-gray-700 leading-6 text-xl mb-4">
-        Polygon ZKEVM also uses ZK-rollup technology to offer high throughput Ethereum transactions with lower fees. On the risk side, some believe that relying heavily on ZK-rollups can introduce centralization risks as validators and sequencers become key to the system
+        {{ selectedObject.desc }}
       </p>
     </div>
 
@@ -44,7 +26,8 @@
         <div
             v-for="(news, index) in moreNews"
             :key="index"
-            class="flex items-center gap-4 border-b pb-4"
+            class="flex items-center gap-4 border-b pb-4 cursor-pointer"
+            @click="changeItem(index)"
         >
           <img
               :src="news.image"
@@ -76,57 +59,64 @@ import News4 from "../assets/images/news4.jpeg";
 import bannerImage from '@/assets/images/slider2.jpeg'
 
 
-    const moreNews = ref([
-      {
-        title: "AGMC Launches Next-Gen Test Management Tool",
-        desc: " Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.",
-        date: "27 Dec 2020",
-        image: News1
-      },
-      {
-        title: "AGMC Partners with Global Retail Giant for Custom Mobile App Development",
-        desc: "We're proud to announce our collaboration with a major retailer to deliver a next-level shopping experience.",
-        date: "27 Dec 2020",
-        image: News2
-      },
-      {
-        title: "AGMC Achieves ISO Certification for Software Quality Assurance",
-        desc: "This milestone reflects our commitment to delivering world-class software solutions.",
-        date: "27 Dec 2020",
-        image: News3
-      },
-      {
-        title: "New Office, New Possibilities!",
-        desc: " AGMC opens a state-of-the-art office to support our growing team of software innovators.",
-        date: "27 Dec 2020",
-        image: News4
-      },
-      {
-        title: "U.S. downs suspected Chinese spy balloon",
-        desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
-        date: "27 Dec 2020",
-        image: News1
-      },
-      {
-        title: "AGMC Launches Next-Gen Test Management Tool",
-        desc: " Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.",
-        date: "27 Dec 2020",
-        image: News2
-      },
-      {
-        title: "AGMC Partners with Global Retail Giant for Custom Mobile App Development",
-        desc: "We're proud to announce our collaboration with a major retailer to deliver a next-level shopping experience.",
-        date: "27 Dec 2020",
-        image: News3
-      },
-      {
-        title: "AGMC Achieves ISO Certification for Software Quality Assurance",
-        desc: "This milestone reflects our commitment to delivering world-class software solutions.",
-        date: "27 Dec 2020",
-        image: News4
-      },
-    ]);
+const moreNews = ref([
+  {
+    title: "AGMC Launches Next-Gen Test Management Tool",
+    desc: " Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.",
+    date: "27 Dec 2020",
+    image: News1
+  },
+  {
+    title: "AGMC Partners with Global Retail Giant for Custom Mobile App Development",
+    desc: "We're proud to announce our collaboration with a major retailer to deliver a next-level shopping experience.",
+    date: "27 Dec 2020",
+    image: News2
+  },
+  {
+    title: "AGMC Achieves ISO Certification for Software Quality Assurance",
+    desc: "This milestone reflects our commitment to delivering world-class software solutions.",
+    date: "27 Dec 2020",
+    image: News3
+  },
+  {
+    title: "New Office, New Possibilities!",
+    desc: " AGMC opens a state-of-the-art office to support our growing team of software innovators.",
+    date: "27 Dec 2020",
+    image: News4
+  },
+  {
+    title: "U.S. downs suspected Chinese spy balloon",
+    desc: "China called the vessel’s downing “an excessive reaction” and said it “r",
+    date: "27 Dec 2020",
+    image: News1
+  },
+  {
+    title: "AGMC Launches Next-Gen Test Management Tool",
+    desc: " Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.",
+    date: "27 Dec 2020",
+    image: News2
+  },
+  {
+    title: "AGMC Partners with Global Retail Giant for Custom Mobile App Development",
+    desc: "We're proud to announce our collaboration with a major retailer to deliver a next-level shopping experience.",
+    date: "27 Dec 2020",
+    image: News3
+  },
+  {
+    title: "AGMC Achieves ISO Certification for Software Quality Assurance",
+    desc: "This milestone reflects our commitment to delivering world-class software solutions.",
+    date: "27 Dec 2020",
+    image: News4
+  },
+]);
 
+const selectedObject = ref(moreNews.value[0]);
+function changeItem(i){
+  console.log(i)
+  selectedObject.value = moreNews.value[i];
+  console.log(selectedObject.value)
+  console.log(moreNews.value[i])
+}
 </script>
 
 <style scoped>
