@@ -5,6 +5,11 @@ defineProps({
   image: {
     default: banner,
     type: String
+  },
+  description:{
+    type:String,
+    default:"Beyon Solutions Acquires Link Development: Creating a new horizon in\n" +
+        "digital transformation and innovation."
   }
 })
 
@@ -22,8 +27,7 @@ defineProps({
         </span>
         </h1>
         <p class="mt-4 text-[#2E3E5C]  md:text-[1.2rem] lg:text-[1.7rem]">
-          Beyon Solutions Acquires Link Development: Creating a new horizon in
-          digital transformation and innovation.
+          {{ description }}
         </p>
       </div>
 
