@@ -57,7 +57,7 @@ function openModal(e,u){
 
 <template>
   <main>
-    <Banner :image="sliderImage" />
+    <Banner :image="sliderImage" description="Empowering Businesses with Smarter Software Solutions, Seamless Mobile Apps, Stunning Websites, and Creative Designs. All in One Place. Where Innovation Meets Excellence. Building the Future of Software, Mobile Apps, Websites, and Designs That Inspire."/>
 
     <VideoBanner/>
     <div class="bg-[#f4f4f4] text-[#2E3E5C]">

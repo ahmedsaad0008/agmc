@@ -26,7 +26,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <Banner :image="bannerImage"/>
+  <Banner :image="bannerImage" description="A comprehensive test management system that simplifies test planning, execution, and reporting for agile teams.  custom-built CRM platform to manage customer interactions and sales pipelines effectively.  A sleek, responsive e-commerce platform for selling electronic gadgets online."/>
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold text-black">Projects</h2>

@@ -33,7 +33,7 @@ onMounted(() => {
 
 <template>
 
-  <Banner :image="bannerImage" />
+  <Banner :image="bannerImage" description="Software Development: Custom software solutions to streamline your business operations.Test Management Systems: Robust platforms to enhance quality assurance and testing efficiency.Mobile App Development: Intuitive, cross-platform mobile apps to engage your users.Website Development: Modern, responsive websites that captivate and convert. Graphic Design: Stunning visuals and creative branding to make your business stand out."/>
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold text-black">Services</h2>

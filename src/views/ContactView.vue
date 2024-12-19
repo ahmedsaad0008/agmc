@@ -24,15 +24,14 @@
         <!-- Email -->
         <div class="flex items-center">
           <img :src="mail" class=" mr-3">
-          <span>demo@gmail.com</span>
+          <span> info@agmcltd.net </span>
         </div>
 
         <!-- Address -->
         <div class="flex items-center">
           <img :src="location" class=" mr-3">
           <span>
-            132 Dartmouth Street Boston,<br />
-            Massachusetts 02156 United States
+             Dubai, UAE
           </span>
         </div>
       </div>
