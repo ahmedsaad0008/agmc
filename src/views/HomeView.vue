@@ -4,10 +4,10 @@ import Carsoual from "@/components/Carsoual.vue";
 import points from '../assets/images/points.svg';
 import icRoundRestaurant from '../assets/images/ic_round-restaurant.svg';
 import image4 from '../assets/images/image _4.png';
-import image5 from '../assets/images/image_5.png';
-import image6 from '../assets/images/image_6.png';
-import image7 from '../assets/images/image_7.png';
-import image8 from '../assets/images/image_8.png';
+import image5 from '../assets/images/news1.jpeg';
+import image6 from '../assets/images/news2.jpeg';
+import image7 from '../assets/images/news3.jpeg';
+import image8 from '../assets/images/news4.jpeg';
 import sliderImage from  '@//assets/images/slider3.jpeg';
 import cardano from '../assets/images/cardano.svg';
 import cloudConnection from '../assets/images/cloud-connection.svg';
@@ -135,24 +135,24 @@ function openModal(e,u){
           </div>
           <div class="col-span-1 grid grid-cols-1 md:grid-cols-2 items-center p-6">
             <div class="col-span-1 "data-aos="fade-up">
-              <img :src="image5" class="rounded-[16px] w-full md:w-fit lg:w-fit" >
+              <img :src="image5" class="rounded-[16px] w-[300px] h-[300px]" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Discover the latest trends and tools in mobile development at this exciting event! Engage with industry experts, explore innovative technologies, and enhance your skills in creating seamless, high-performing mobile applications for iOS and Android. Ideal for developers, designers, and tech enthusiasts.</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.</h2>
             </div>
             <div class="col-span-1" data-aos="fade-up">
-              <img :src="image6" class="rounded-[16px] w-full md:w-fit lg:w-fit" >
+              <img :src="image6" class="rounded-[16px] w-[300px] h-[300px]" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Join us for an engaging event on web development! Dive into the latest technologies, frameworks, and best practices to build modern, responsive, and high-performing websites. Perfect for developers, designers, and web enthusiasts looking to sharpen their skills and stay ahead in the industry.</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">We're proud to announce our collaboration with a major retailer to deliver a next-level shopping experience.</h2>
             </div>
             <div class="col-span-1" data-aos="fade-up">
-              <img :src="image7" class="rounded-[16px] w-full md:w-fit lg:w-fit" >
+              <img :src="image7" class="rounded-[16px] w-[300px] h-[300px]" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Join us for an engaging event on web development! Dive into the latest technologies, frameworks, and best practices to build modern, responsive, and high-performing websites. Perfect for developers, designers, and web enthusiasts looking to sharpen their skills and stay ahead in the industry.</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">This milestone reflects our commitment to delivering world-class software solutions.</h2>
             </div>
             <div class="col-span-1" data-aos="fade-up">
-              <img :src="image8" class="rounded-[16px] w-full md:w-fit lg:w-fit" >
+              <img :src="image8" class="rounded-[16px] w-[300px] h-[300px]" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Explore the future of front-end development at this dynamic event! Learn about the latest tools, frameworks, and design principles to create intuitive, responsive, and user-friendly interfaces. Perfect for developers and designers passionate about crafting exceptional user experiences</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2"> AGMC opens a state-of-the-art office to support our growing team of software innovators.</h2>
             </div>
           </div>
         </div>
