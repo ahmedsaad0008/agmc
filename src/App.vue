@@ -3,6 +3,8 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import logo from './assets/images/agmc.png';
 import Banner from "@/components/Banner.vue";
+
+import Loader from "@/components/Loader.vue";
 </script>
 
 <template>
@@ -67,6 +69,8 @@ import Banner from "@/components/Banner.vue";
 
 
 
+
+  <Loader />
 
     <RouterView />
 
