@@ -48,37 +48,37 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
         image: web, // Replace with actual images
         title: "Web Development",
         description:
-            "With our microscopic detailing and scrupulous strategies, our erudite developers design and develop creative Android and iOS applications.",
+            "We build dynamic, responsive, and visually stunning websites tailored to your business needs. By blending advanced technology with meticulous attention to detail, we ensure seamless functionality, user-friendly interfaces, and cutting-edge design for a remarkable digital presence.",
       },
       {
         image: mobile, // Replace with actual images
-        title: "Mobile-Application",
+        title: "Mobile Application",
         description:
-            "With our microscopic detailing and scrupulous strategies, our erudite developers design and develop creative Android and iOS applications.",
+            "From concept to launch, we craft powerful, intuitive mobile applications for Android and iOS. Our expert developers focus on delivering exceptional user experiences, feature-rich apps, and innovative solutions that drive engagement and accelerate growth for your business.",
       },
       {
         image: network, // Replace with actual images
-        title: "Web Development",
+        title: "Web Development (Alternate Focus)",
         description:
-            "With our microscopic detailing and scrupulous strategies, our erudite developers design and develop creative Android and iOS applications.",
+            "Transform your ideas into reality with robust web development solutions. We create scalable, high-performance websites that align with modern design trends and business goals, ensuring reliability, speed, and a compelling digital experience for your audience.",
       },
       {
         image: web, // Replace with actual images
         title: "Web Development",
         description:
-            "With our microscopic detailing and scrupulous strategies, our erudite developers design and develop creative Android and iOS applications.",
+            "We build dynamic, responsive, and visually stunning websites tailored to your business needs. By blending advanced technology with meticulous attention to detail, we ensure seamless functionality, user-friendly interfaces, and cutting-edge design for a remarkable digital presence.",
       },
       {
         image: mobile, // Replace with actual images
-        title: "Mobile-Application",
+        title: "Mobile Application",
         description:
-            "With our microscopic detailing and scrupulous strategies, our erudite developers design and develop creative Android and iOS applications.",
+            "From concept to launch, we craft powerful, intuitive mobile applications for Android and iOS. Our expert developers focus on delivering exceptional user experiences, feature-rich apps, and innovative solutions that drive engagement and accelerate growth for your business.",
       },
       {
         image: network, // Replace with actual images
-        title: "Web Development",
+        title: "Web Development (Alternate Focus)",
         description:
-            "With our microscopic detailing and scrupulous strategies, our erudite developers design and develop creative Android and iOS applications.",
+            "Transform your ideas into reality with robust web development solutions. We create scalable, high-performance websites that align with modern design trends and business goals, ensuring reliability, speed, and a compelling digital experience for your audience.",
       },
     ]);
 

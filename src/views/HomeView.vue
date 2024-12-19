@@ -165,10 +165,7 @@ function openModal(e,u){
       <div class="text-center mb-12">
         <h1 class="text-6xl font-bold">Inspiring Solution</h1>
         <p class="text-gray-600 mt-4 text-xl leading-relaxed">
-          When services simply work, we choose to approach digital needs from a partner perspective.
-          A partner that delivers inspiring solutions. We consult, design, develop, implement, and manage integrated technology solutions.
-          Whether on cloud, on-premises, or using a hybrid model, we help you drive measurable productivity in your business.
-          We start with you from scratch; from ideation and conceptualization to implementation of transformative solutions.
+          At AGMC, we approach your digital transformation as partners, not just providers. From consultation to deployment, we design, develop, and implement innovative solutions tailored to your needs. Whether you work on cloud, on-premises, or hybrid models, we ensure seamless integration, measurable productivity, and tangible results. Starting with your vision, we turn ideas into powerful, transformative solutions that drive your business forward.
         </p>
       </div>
 
@@ -182,12 +179,9 @@ function openModal(e,u){
           </div>
           <h3 class="text-xl font-semibold">Mobile Applications Development</h3>
           <p class="text-gray-500 mt-3">
-            Native mobile application is a smartphone application written in a specific programming language such as Objective C for iOS or Java for Android.
+            We craft native mobile applications that deliver exceptional performance and user experience on iOS and Android platforms. Using modern programming languages like Objective-C, Swift, and Java, our team ensures your app is robust, responsive, and tailored to meet your specific business goals.
           </p>
           </div>
-          <button class="px-6 py-2 mt-6 border bg-[#2E2E2F1A] text-[#2E2E2F] font-medium rounded-lg w-fit">
-            View More
-          </button>
 
         </div>
         <!-- Feature 2 -->
@@ -198,12 +192,9 @@ function openModal(e,u){
             </div>
             <h3 class="text-xl font-semibold">Web Development</h3>
             <p class="text-gray-500 mt-3">
-              Web development is the process of building, programming, and maintaining websites and web applications. Website developers use various programming tools.
+              Our web development services combine creativity, scalability, and advanced technology. From interactive websites to complex web applications, we build solutions that drive engagement and deliver results. Using industry-standard tools and frameworks, we help businesses thrive in the digital space.
             </p>
           </div>
-          <button class="px-6 py-2 border bg-[#2E2E2F1A] text-[#2E2E2F] font-medium rounded-lg w-fit">
-            View More
-          </button>
         </div>
         <!-- Feature 3 -->
         <div class="text-center px-6 flex flex-col justify-between items-center" data-aos="fade-up">
@@ -213,12 +204,9 @@ function openModal(e,u){
           </div>
           <h3 class="text-xl font-semibold">Save Information in the Cloud</h3>
           <p class="text-gray-500 mt-3">
-            To use Cloud Storage, you'll first create a bucket, a basic container that holds your data in Cloud Storage.
+            Secure, reliable, and accessible — our cloud storage solutions help you store and manage your data with ease. By creating tailored cloud storage strategies, we ensure your information is protected, organized, and available when you need it, enabling seamless business operations.
           </p>
           </div>
-          <button class="px-6 py-2 border bg-[#2E2E2F1A] text-[#2E2E2F] font-medium rounded-lg w-fit">
-            View More
-          </button>
         </div>
         <!-- Feature 4 -->
         <div class="text-center px-6 flex flex-col justify-between items-center" data-aos="fade-up">
@@ -228,12 +216,9 @@ function openModal(e,u){
             </div>
             <h3 class="text-xl font-semibold">Form On-Prem Dynamics to Power Apps</h3>
             <p class="text-gray-500 mt-3">
-              Connect your Dynamics 365 on-premises environment to the world of Power Apps using our OPS (On-Premises Connectors) solutions.
+              Unlock the full potential of your Dynamics 365 on-premises setup by integrating it with Power Apps. Our specialized solutions bridge the gap, allowing you to create powerful applications that enhance workflows, automate processes, and connect your data across platforms effortlessly.
             </p>
           </div>
-          <button class="px-6 py-2 border bg-[#2E2E2F1A] text-[#2E2E2F] font-medium rounded-lg  w-fit">
-            View More
-          </button>
         </div>
       </div>
     </div>
