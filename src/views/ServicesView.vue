@@ -33,11 +33,23 @@ onMounted(() => {
 
 <template>
 
-  <Banner :image="bannerImage" description="Software Development: Custom software solutions to streamline your business operations.Test Management Systems: Robust platforms to enhance quality assurance and testing efficiency.Mobile App Development: Intuitive, cross-platform mobile apps to engage your users.Website Development: Modern, responsive websites that captivate and convert. Graphic Design: Stunning visuals and creative branding to make your business stand out."/>
-  <section class="container mx-auto pb-10">
-    <div class="text-center mb-10">
-      <h2 class="text-4xl font-bold text-black">Services</h2>
+  <section class="bg-white mb-20">
+    <div class="container mx-auto">
+      <!-- Text Content -->
+      <div class=" text-center w-full px-4 mt-7">
+        <h1 class="text-4xl sm:text-4xl md:text-[1.5rem] lg:text-[4.5rem] font-bold text-[#2E2E2F] md:leading-[1.5]">
+          Services
+        </h1>
+        <p class="mt-4 text-[#2E3E5C]  md:text-[1.2rem] lg:text-[1.7rem]">
+          Software Development: Custom software solutions to streamline your business operations.Test Management Systems: Robust platforms to enhance quality assurance and testing efficiency.Mobile App Development: Intuitive, cross-platform mobile apps to engage your users.Website Development: Modern, responsive websites that captivate and convert. Graphic Design: Stunning visuals and creative branding to make your business stand out.
+        </p>
+      </div>
     </div>
+  </section>
+  <section class="container mx-auto pb-10">
+<!--    <div class="text-center mb-10">-->
+<!--      <h2 class="text-4xl font-bold text-black">Services</h2>-->
+<!--    </div>-->
 
     <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
         <div class="col-span-1 px-10 lg:px-20 flex flex-col justify-around order-last md:order-first gap-4 lg:gap-0">

@@ -1,8 +1,8 @@
 <template>
-  <Banner :image="bannerImage" description="At AGMC, we specialize in delivering cutting-edge software solutions tailored to your business needs. From mobile apps to web platforms, test management systems to graphic design, we bring your ideas to life with precision and creativity. Our team of expert developers and designers is committed to driving digital transformation and helping you achieve your goals."/>
+<!--  <Banner :image="bannerImage" description="At AGMC, we specialize in delivering cutting-edge software solutions tailored to your business needs. From mobile apps to web platforms, test management systems to graphic design, we bring your ideas to life with precision and creativity. Our team of expert developers and designers is committed to driving digital transformation and helping you achieve your goals."/>-->
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
-      <h2 class="text-4xl font-bold text-black">About Us</h2>
+      <h2 class="text-6xl font-bold text-black">About Us</h2>
     </div>
 
     <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">

@@ -1,8 +1,8 @@
 <template>
-  <Banner :image="bannerImage"/>
+<!--  <Banner :image="bannerImage"/>-->
   <section class="container mx-auto pb-10">
     <div class="text-center mb-10">
-      <h2 class="text-4xl font-bold text-black">News</h2>
+      <h2 class="text-6xl font-bold text-black">News</h2>
     </div>
   <div class="flex flex-col lg:flex-row gap-8 p-8">
     <!-- Main Article Section -->

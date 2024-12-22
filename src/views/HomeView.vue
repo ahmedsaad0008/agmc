@@ -244,7 +244,7 @@ function openModal(e,u){
         <Slide>
         <div class="relative w-full">
           <img :src="bannerImage" class="w-full" alt="banner">
-          <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-16334&p=f&t=ya83jJhXV8G29ytA-0&scaling=min-zoom&content-scaling=fixed&page-id=94%3A2313&starting-point-node-id=94%3A16360')">
+          <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
             <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT User App</h1>
             <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
               Drive business transformation with the power of Microsoft Dynamics 365.
@@ -255,7 +255,7 @@ function openModal(e,u){
         <Slide>
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
-            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-19126&p=f&t=3Hhlx0QkdrwPQ2rF-0&scaling=min-zoom&content-scaling=fixed&page-id=94%3A2312&starting-point-node-id=94%3A19148')">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
               <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT Judge App</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
@@ -266,7 +266,7 @@ function openModal(e,u){
         <Slide>
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
-            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=94-7402&p=f&t=3Hhlx0QkdrwPQ2rF-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1')">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
               <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT Dashboard</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
@@ -277,7 +277,7 @@ function openModal(e,u){
         <Slide>
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
-            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/IIq1ISVigF5ruOUTsCT1Np/wfdp-wallet?node-id=44-2260&p=f&t=GFpvOuG3OXXZ8C32-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1616')">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
               <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">WFDP Wallet</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
@@ -288,7 +288,7 @@ function openModal(e,u){
         <Slide>
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
-            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/IIq1ISVigF5ruOUTsCT1Np/wfdp-wallet?node-id=44-2260&p=f&t=GFpvOuG3OXXZ8C32-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1616')">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
               <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SVS</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
@@ -299,7 +299,7 @@ function openModal(e,u){
         <Slide>
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
-            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="openModal($event,'https://www.figma.com/proto/28qNcUatVXDdGoQN29hSse/WFDP?node-id=1-282&p=f&t=QSErSm00I76vXcoB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A282')">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
               <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">WFDP</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
                 Drive business transformation with the power of Microsoft Dynamics 365.
@@ -307,17 +307,21 @@ function openModal(e,u){
             </div>
           </div>
         </Slide>
+
+        <template #addons>
+          <Pagination />
+        </template>
       </Carousel>
     </div>
 
-    <div class="container mx-auto py-24">
-      <h4 class="text-center mb-12 text-[#2E2E2F] font-bold text-xl">Support Company</h4>
-      <div class="grid grid-cols-2 md:grid-cols-5 items-center gap-6 md:gap-0">
-        <div class="col-span-1 w-fit mx-auto" v-for="(im,i) in images" :key="i">
-          <img :src="im" alt="logo">
-        </div>
-      </div>
-    </div>
+<!--    <div class="container mx-auto py-24">-->
+<!--      <h4 class="text-center mb-12 text-[#2E2E2F] font-bold text-xl">Support Company</h4>-->
+<!--      <div class="grid grid-cols-2 md:grid-cols-5 items-center gap-6 md:gap-0">-->
+<!--        <div class="col-span-1 w-fit mx-auto" v-for="(im,i) in images" :key="i">-->
+<!--          <img :src="im" alt="logo">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
 
   </main>
 
