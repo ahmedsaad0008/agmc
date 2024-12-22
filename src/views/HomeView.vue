@@ -129,28 +129,28 @@ function openModal(e,u){
         <p class="text-[#2E3E5C] text-[1.5rem] font-bold">Check Our Latest New , Event , webners And More.</p>
         <div class="grid grid-cols-1 lg:grid-cols-2 mt-3">
           <div class="col-span-1 px-4 h-fit" data-aos="fade-up">
-            <img :src="image4" class="h-3/4 w-full rounded-[16px]">
+            <img :src="image5" class="h-3/4 w-full rounded-[16px]">
             <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-            <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Discover the latest trends and tools in mobile development at this exciting event! Engage with industry experts, explore innovative technologies, and enhance your skills in creating seamless, high-performing mobile applications for iOS and Android. Ideal for developers, designers, and tech enthusiasts.</h2>
+            <h2 class="text-[#1E1F4B] text-lg font-bold pb-2">Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.</h2>
           </div>
           <div class="col-span-1 grid grid-cols-1 md:grid-cols-2 items-center p-6">
             <div class="col-span-1 "data-aos="fade-up">
-              <img :src="image5" class="rounded-[16px] w-[300px] h-[300px]" >
+              <img :src="image5" class="rounded-[16px] w-[300px] h-[300px] object-cover" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.</h2>
             </div>
             <div class="col-span-1" data-aos="fade-up">
-              <img :src="image6" class="rounded-[16px] w-[300px] h-[300px]" >
+              <img :src="image6" class="rounded-[16px] w-[300px] h-[300px] object-cover" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">We're proud to announce our collaboration with a major retailer to deliver a next-level shopping experience.</h2>
             </div>
             <div class="col-span-1" data-aos="fade-up">
-              <img :src="image7" class="rounded-[16px] w-[300px] h-[300px]" >
+              <img :src="image7" class="rounded-[16px] w-[300px] h-[300px] object-cover" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">This milestone reflects our commitment to delivering world-class software solutions.</h2>
             </div>
             <div class="col-span-1" data-aos="fade-up">
-              <img :src="image8" class="rounded-[16px] w-[300px] h-[300px]" >
+              <img :src="image8" class="rounded-[16px] w-[300px] h-[300px] object-cover" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
               <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2"> AGMC opens a state-of-the-art office to support our growing team of software innovators.</h2>
             </div>
