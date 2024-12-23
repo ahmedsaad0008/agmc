@@ -57,7 +57,7 @@ function openModal(e,u){
 
 <template>
   <main>
-    <Banner :image="sliderImage" description="Empowering Businesses with Smarter Software Solutions, Seamless Mobile Apps, Stunning Websites, and Creative Designs. All in One Place. Where Innovation Meets Excellence. Building the Future of Software, Mobile Apps, Websites, and Designs That Inspire."/>
+    <Banner :image="sliderImage" description="At AGMC, we bring visions to life with cutting-edge software solutions, innovative mobile apps, captivating websites, and creative designs. From concept to execution, we redefine excellence, driving digital transformation and creating impactful experiences. Join us in shaping the future of technology and design, one project at a time."/>
 
     <VideoBanner/>
     <div class="bg-[#f4f4f4] text-[#2E3E5C]">

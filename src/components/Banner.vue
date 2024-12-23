@@ -21,10 +21,7 @@ defineProps({
       <!-- Text Content -->
       <div class=" md:text-left md:w-1/2 px-4 self-start mt-7">
         <h1 class="text-4xl sm:text-4xl md:text-[1.5rem] lg:text-[4.5rem] font-bold text-[#2E2E2F] md:leading-[1.5]">
-          Revolutionary Digital <br />
-          <span class="text-[#2E2E2F] font-bold flex flex-row items-center">
-          Synergis <img :src="construct" class="max-w-40  md:max-w-40 lg:max-w-full"  alt="logo">
-        </span>
+          Empowering Ideas, Building Futures.
         </h1>
         <p class="mt-4 text-[#2E3E5C]  md:text-[1.2rem] lg:text-[1.7rem]">
           {{ description }}
