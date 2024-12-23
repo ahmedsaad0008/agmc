@@ -245,9 +245,12 @@ function openModal(e,u){
         <div class="relative w-full">
           <img :src="bannerImage" class="w-full" alt="banner">
           <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
-            <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT User App</h1>
+            <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">Management Systems</h1>
             <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
-              Drive business transformation with the power of Microsoft Dynamics 365.
+              Management System App
+            </p>
+            <p class="text-white text-sm md:text-2xl lg:text-5xl leading-relaxed">
+              Management System Dashboard
             </p>
           </div>
         </div>
@@ -256,9 +259,12 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
-              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT Judge App</h1>
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">Social Media Solutions</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
-                Drive business transformation with the power of Microsoft Dynamics 365.
+                Social Media App
+              </p>
+              <p class="text-white text-sm md:text-2xl lg:text-5xl leading-relaxed">
+                Social Media Dashboard
               </p>
             </div>
           </div>
@@ -267,9 +273,15 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
-              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SGT Dashboard</h1>
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">Social Good Talent Platform</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
-                Drive business transformation with the power of Microsoft Dynamics 365.
+                User Panel
+              </p>
+              <p class="text-white text-sm md:text-2xl lg:text-5xl leading-relaxed">
+                Admin Panel
+              </p>
+              <p class="text-white text-sm md:text-2xl lg:text-5xl leading-relaxed">
+                Judge panel
               </p>
             </div>
           </div>
@@ -278,9 +290,12 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
-              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">WFDP Wallet</h1>
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">Cryptocurrency Solutions</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
-                Drive business transformation with the power of Microsoft Dynamics 365.
+                Crypto App
+              </p>
+              <p class="text-white text-sm md:text-2xl lg:text-5xl leading-relaxed">
+                Crypto System Dashboard
               </p>
             </div>
           </div>
@@ -289,9 +304,12 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
-              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">SVS</h1>
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">Wallet & Crypto Web App</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
-                Drive business transformation with the power of Microsoft Dynamics 365.
+                WEB APP
+              </p>
+              <p class="text-white text-sm md:text-2xl lg:text-5xl leading-relaxed">
+                MOBILE APP
               </p>
             </div>
           </div>
@@ -300,9 +318,24 @@ function openModal(e,u){
           <div class="relative w-full">
             <img :src="bannerImage" class="w-full" alt="banner">
             <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
-              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">WFDP</h1>
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white">Meetings & Conference Solutions</h1>
               <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
-                Drive business transformation with the power of Microsoft Dynamics 365.
+                Meetings & Conference App
+              </p>
+            </div>
+          </div>
+        </Slide>
+
+        <Slide>
+          <div class="relative w-full">
+            <img :src="bannerImage" class="w-full" alt="banner">
+            <div class="absolute bottom-4 md:bottom-20 px-20 text-left" @click="router.push('/projects')">
+              <h1 class="text-sm lg:text-6xl md:text-3xl font-bold text-white"> Business Management Systems</h1>
+              <p class="text-white mt-6 text-sm md:text-2xl lg:text-5xl leading-relaxed">
+                CRM Systems
+              </p>
+              <p class="text-white text-sm md:text-2xl lg:text-5xl leading-relaxed">
+                ERP Systems
               </p>
             </div>
           </div>
