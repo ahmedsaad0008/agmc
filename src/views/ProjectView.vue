@@ -105,6 +105,30 @@ function openModal(e,u){
         <img :src="web" alt="UI/UX Design" class="rounded w-3/4 lg:w-full mx-auto" data-aos="fade-right">
       </div>
       <div class="col-span-1 px-20 flex flex-col justify-evenly">
+        <h3 class="text-3xl lg:text-5xl font-bold text-[#2E2E2F]">SGT User Dashboard</h3>
+        <p class="text-sm lg:text-2xl text-[#575757]">Our FirstWave support engineers are highly skilled and experienced in NMIS, Open-AudIT and all of our commercial products and helped customers from Telcos, MSP, enterprise organisations.</p>
+        <p class="text-sm lg:text-2xl text-[#575757]">We work closely with you during implementation and rollout, as well as post delivery of our solutions. </p>
+        <button class="btn bg-[#597CBD] hover:bg-[#597CBD] px-8 py-3 w-fit text-black" @click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=240-4689&p=f&t=by8D4UXYwOHsQtgK-0&scaling=min-zoom&content-scaling=fixed&page-id=94%3A2310')">View</button>
+      </div>
+    </div>
+
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
+      <div class="col-span-1 px-20 flex flex-col justify-evenly order-last md:order-first gap-4 lg:gap-0">
+        <h3 class="text-3xl lg:text-5xl font-bold text-[#2E2E2F]">SGT Judge Dashboard</h3>
+        <p class="text-sm lg:text-2xl text-[#575757]">Our FirstWave support engineers are highly skilled and experienced in NMIS, Open-AudIT and all of our commercial products and helped customers from Telcos, MSP, enterprise organisations.</p>
+        <p class="text-sm lg:text-2xl text-[#575757]">We work closely with you during implementation and rollout, as well as post delivery of our solutions. </p>
+        <button class="btn bg-[#597CBD] hover:bg-[#597CBD] px-8 py-3 w-fit text-black"@click="openModal($event,'https://www.figma.com/proto/9rLxlYY3Y6wNb1xgieKwjm/SOCIAL-GOODTALENT?node-id=240-4695&p=f&t=by8D4UXYwOHsQtgK-0&scaling=min-zoom&content-scaling=fixed&page-id=94%3A2311')">View</button>
+      </div>
+      <div class="col-span-1  order-first  md:order-last">
+        <img :src="network" alt="UI/UX Design" class="rounded w-3/4 lg:w-full mx-auto" data-aos="fade-left">
+      </div>
+    </div>
+
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 mb-10">
+      <div class="col-span-1">
+        <img :src="web" alt="UI/UX Design" class="rounded w-3/4 lg:w-full mx-auto" data-aos="fade-right">
+      </div>
+      <div class="col-span-1 px-20 flex flex-col justify-evenly">
         <h3 class="text-3xl lg:text-5xl font-bold text-[#2E2E2F]">SVS</h3>
         <p class="text-sm lg:text-2xl text-[#575757]">Our FirstWave support engineers are highly skilled and experienced in NMIS, Open-AudIT and all of our commercial products and helped customers from Telcos, MSP, enterprise organisations.</p>
         <p class="text-sm lg:text-2xl text-[#575757]">We work closely with you during implementation and rollout, as well as post delivery of our solutions. </p>
