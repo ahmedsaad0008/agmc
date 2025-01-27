@@ -9,7 +9,7 @@
       <div class="col-span-1 px-20 flex flex-col justify-center gap-6 order-last md:order-first">
         <h3 class="text-3xl lg:text-5xl font-bold text-[#2E2E2F]">Who We Are</h3>
         <p class="text-sm lg:text-2xl text-[#575757]">Since our inception in 2016, AGMC has been at the forefront of digital innovation, delivering top-notch solutions in software development, mobile applications, and website design. With a strong foundation of expertise and creativity, we have grown into a trusted partner for businesses across various industries, helping them transform ideas into reality.</p>
-        <button class="btn bg-[#597CBD] hover:bg-[#597CBD] px-8 py-3 w-fit text-black">Read More</button>
+        <button class="btn bg-[#597CBD] hover:bg-[#597CBD] px-8 py-3 w-fit text-white">Read More</button>
       </div>
       <div class="col-span-1 order-first md:order-last">
         <img :src="about2" alt="UI/UX Design" class="rounded w-3/4 lg:w-full mx-auto" data-aos="fade-left">
@@ -23,7 +23,7 @@
       <div class="col-span-1 px-20 flex flex-col justify-center gap-6">
         <h3 class="text-3xl lg:text-5xl font-bold text-[#2E2E2F]">Our Journey</h3>
         <p class="text-sm lg:text-2xl text-[#575757]">Over the years, AGMC has successfully completed numerous projects, ranging from dynamic mobile apps to robust enterprise solutions. Our journey is marked by a relentless pursuit of excellence and a commitment to empowering businesses with cutting-edge technologies. Every project we undertake reflects our dedication to quality, innovation, and customer satisfaction.</p>
-        <button class="btn bg-[#597CBD] hover:bg-[#597CBD] px-8 py-3 w-fit text-black">Read More</button>
+        <button class="btn bg-[#597CBD] hover:bg-[#597CBD] px-8 py-3 w-fit text-white">Read More</button>
       </div>
     </div>
 
@@ -31,7 +31,7 @@
       <div class="col-span-1 px-20 flex flex-col justify-center gap-6 order-last md:order-first">
         <h3 class="text-3xl lg:text-5xl font-bold text-[#2E2E2F]">Why Choose Us </h3>
         <p class="text-sm lg:text-2xl text-[#575757]">At AGMC, we believe in building lasting relationships through exceptional service and results. With a team of seasoned professionals, we deliver customized solutions tailored to your unique business needs. Our proven track record of success, combined with our passion for innovation, makes us the partner of choice for businesses looking to thrive in a competitive digital landscape.</p>
-        <button class="btn bg-[#597CBD] hover:bg-[#597CBD] px-8 py-3 w-fit text-black">Read More</button>
+        <button class="btn bg-[#597CBD] hover:bg-[#597CBD] px-8 py-3 w-fit text-white">Read More</button>
       </div>
       <div class="col-span-1 order-first md:order-last">
         <img :src="about1" alt="UI/UX Design" class="rounded w-3/4 lg:w-full mx-auto " data-aos="fade-left">

@@ -13,7 +13,7 @@ import Loader from "@/components/Loader.vue";
       <!-- Logo Section -->
       <div class="navbar-start w-fit">
         <a href="/" class="max-w-16 md:max-w-full">
-          <img :src="logo" alt="agmc" class="max-w-32">
+          <img :src="logo" alt="agmc" class="max-w-48">
         </a>
       </div>
 
@@ -83,7 +83,7 @@ import Loader from "@/components/Loader.vue";
       <div class="flex justify-between items-center">
         <!-- Logo -->
         <a href="#" class="text-3xl font-bold text-gradient bg-clip-text bg-gradient-to-r from-pink-500 via-blue-500 to-green-500">
-          <img :src="logo" alt="agmc" class="max-w-32">
+          <img :src="logo" alt="agmc" class="max-w-48">
         </a>
 
         <!-- Social Icons -->

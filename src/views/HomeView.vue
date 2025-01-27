@@ -135,9 +135,10 @@ function openModal(e,u){
           </div>
           <div class="col-span-1 grid grid-cols-1 md:grid-cols-2 items-center p-6">
             <div class="col-span-1 "data-aos="fade-up">
-              <img :src="image5" class="rounded-[16px] w-[300px] h-[300px] object-cover" >
+              <img src="@/assets/images/ai.png" class="rounded-[16px] w-[300px] h-[300px] object-cover" >
               <p class="text-[#374754] text-xs font-semibold py-2">Event</p>
-              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">Our latest release is set to revolutionize quality assurance workflows with intuitive dashboards and AI-driven insights.</h2>
+              <h2 class="text-[#1E1F4B] text-sm font-semibold pb-2">
+                Our upcoming launch is poised to transform project management processes with streamlined interfaces and real-time analytics powered by AI.</h2>
             </div>
             <div class="col-span-1" data-aos="fade-up">
               <img :src="image6" class="rounded-[16px] w-[300px] h-[300px] object-cover" >
