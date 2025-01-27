@@ -16,10 +16,10 @@
 
       <div class="space-y-4">
         <!-- Phone -->
-        <div class="flex items-center">
-          <img :src="phoneCall" class=" mr-3">
-          <span>+1 012 3456 789</span>
-        </div>
+<!--        <div class="flex items-center">-->
+<!--          <img :src="phoneCall" class=" mr-3">-->
+<!--          <span>+1 012 3456 789</span>-->
+<!--        </div>-->
 
         <!-- Email -->
         <div class="flex items-center">
